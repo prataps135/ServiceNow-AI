@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="ServiceNow AI Portal Search">9a46d6041b2b6e10e2622f02b24bcb5f</dataset>
+        <order>100</order>
+        <predicate_bundle display_value="Now Assist Self Service Multi-Content Response Bundle">f237e4869f8b8210210e089c8a0a1c17</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:41:52</sys_created_on>
+        <sys_id>d7b99ecc1b2b6e10e2622f02b24bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_d7b99ecc1b2b6e10e2622f02b24bcbdb</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:41:52</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

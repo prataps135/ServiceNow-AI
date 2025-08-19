@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>4</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">94d252441be76e10e2622f02b24bcb5a</sp_column>
+        <sp_widget display_value="Popular Topics">70a162c96be07410d70bc141ee44afba</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:11:12</sys_created_on>
+        <sys_id>d0d252441be76e10e2622f02b24bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sp_instance_d0d252441be76e10e2622f02b24bcb66</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:11:12</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"widget_title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"topic_limit": {
+		"value": "4",
+		"displayValue": "4"
+	},
+	"display_size": {
+		"value": "Normal",
+		"displayValue": "Normal"
+	},
+	"border_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "Asynchronous"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d0d252441be76e10e2622f02b24bcb66"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <creator_source/>
+        <description/>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>Now Assist in Virtual Agent - 1</label>
+        <name>x_aenpl_servicenow_now_assist_in_virtual_agent_1235b5ec01b6b6e10e2622f02b24bcbfd</name>
+        <publish_id>c7f05a68-e49b-4d25-a3ca-52220be5e710</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:48:35</sys_created_on>
+        <sys_id>b35bdec01b6b6e10e2622f02b24bcb2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Now Assist in Virtual Agent - 1</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>ais_search_profile_b35bdec01b6b6e10e2622f02b24bcb2c</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:48:37</sys_updated_on>
+    </ais_search_profile>
+</record_update>
