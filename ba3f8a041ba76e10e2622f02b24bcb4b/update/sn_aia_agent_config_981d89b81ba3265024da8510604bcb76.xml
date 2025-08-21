@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_config">
+    <sn_aia_agent_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="SNAI Knowledge Expert Agent">057c4d741ba3265024da8510604bcb4c</agent>
+        <allow_guest_access>false</allow_guest_access>
+        <public>false</public>
+        <sys_class_name>sn_aia_agent_config</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 10:01:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>981d89b81ba3265024da8510604bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_agent_config_981d89b81ba3265024da8510604bcb76</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 10:01:54</sys_updated_on>
+    </sn_aia_agent_config>
+</record_update>
