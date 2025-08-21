@@ -8,10 +8,10 @@
         <derived>true</derived>
         <field/>
         <label>ServiceNow AI Now Assist VA Primary Default Spell Check Dictionary</label>
-        <last_derived>2025-08-19 07:51:10</last_derived>
+        <last_derived>2025-08-21 09:43:07</last_derived>
         <locale>en</locale>
         <name>x_aenpl_servicenow_servicenow_ai_now_assist_va_primary_default_spell_check_dictionary</name>
-        <publish_id>670ebcb1-7b62-4760-b090-92b2c5ac763e</publish_id>
+        <publish_id>c13a223f-deb3-4834-8da8-9efad8f5c285</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
         <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>

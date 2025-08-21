@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="DELETE">
+        <active>true</active>
+        <agent display_value="Change implementation plan AI agent (Copy)">11b264f41be7e25024da8510604bcbb0</agent>
+        <description>This tool updates the Implementation Plan to change request.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>copilot</execution_mode>
+        <inputs>[{"name":"implementation_plan","value":"","description":"proposed implementation plan to be posted to the change request"},{"name":"number","value":"","description":"number of the change request extracted from user input"}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Update implementation plan to change request</name>
+        <output_transformation_strategy>paraphrase</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:56:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d9b264f41be7e25024da8510604bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update implementation plan to change request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_d9b264f41be7e25024da8510604bcbdd</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 06:56:50</sys_updated_on>
+        <tool display_value="Update implementation plan to change request">28d1e5084747521099b6cea5936d4365</tool>
+        <tool_attributes>{}</tool_attributes>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</application>
+        <file_path/>
+        <instance_id>379c2d46db813010e03ad7c8f4961970</instance_id>
+        <instance_name>aelumconsultingpvtltddemo3</instance_name>
+        <name>sn_aia_agent_tool_m2m_d9b264f41be7e25024da8510604bcbdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m"><sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE"><active>true</active><agent display_value="Change implementation plan AI agent (Copy)">11b264f41be7e25024da8510604bcbb0</agent><description>This tool updates the Implementation Plan to change request.</description><display_output>false</display_output><document_status/><execution_mode>copilot</execution_mode><inputs>[{"name":"implementation_plan","value":"","description":"proposed implementation plan to be posted to the change request"},{"name":"number","value":"","description":"number of the change request extracted from user input"}]</inputs><max_auto_executions>10</max_auto_executions><name>Update implementation plan to change request</name><output_transformation_strategy>paraphrase</output_transformation_strategy><post_processing_script/><pre_message/><sys_class_name>sn_aia_agent_tool_m2m</sys_class_name><sys_created_by>Pratap.S</sys_created_by><sys_created_on>2025-08-21 06:56:50</sys_created_on><sys_domain>global</sys_domain><sys_id>d9b264f41be7e25024da8510604bcbdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update implementation plan to change request</sys_name><sys_overrides/><sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package><sys_policy/><sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope><sys_update_name>sn_aia_agent_tool_m2m_d9b264f41be7e25024da8510604bcbdd</sys_update_name><sys_updated_by>Pratap.S</sys_updated_by><sys_updated_on>2025-08-21 06:56:50</sys_updated_on><tool display_value="Update implementation plan to change request">28d1e5084747521099b6cea5936d4365</tool><tool_attributes>{}</tool_attributes><transformation_instructions/></sn_aia_agent_tool_m2m></record_update>]]></payload>
+        <payload_hash>1073798919</payload_hash>
+        <record_name>Update implementation plan to change request</record_name>
+        <reverted_from/>
+        <source>31a0d6c81ba76e10e2622f02b24bcb4f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:56:50</sys_created_on>
+        <sys_id>51b264f41be7e25024da8510604bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cb6a7db10000001</sys_recorded_at>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 06:56:50</sys_updated_on>
+        <type>Agent Tool</type>
+        <update_guid>15b264f46de7e2503c3e17c825f6e6e0</update_guid>
+        <update_guid_history>15b264f46de7e2503c3e17c825f6e6e0:1073798919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Update implementation plan to change request">ccb0f4f81babe25024da8510604bcb7f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 07:57:54</sys_created_on>
+        <sys_db_object display_value="" name="sn_aia_agent_tool_m2m">sn_aia_agent_tool_m2m</sys_db_object>
+        <sys_id>658812de9d644e04a99f12f3fb469569</sys_id>
+        <sys_metadata>d9b264f41be7e25024da8510604bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update implementation plan to change request</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_scope_delete display_value="">af580a66de864184b9c2d33df5834090</sys_scope_delete>
+        <sys_update_name>sn_aia_agent_tool_m2m_d9b264f41be7e25024da8510604bcbdd</sys_update_name>
+        <sys_update_version display_value="sn_aia_agent_tool_m2m_d9b264f41be7e25024da8510604bcbdd">51b264f41be7e25024da8510604bcbe1</sys_update_version>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 07:57:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

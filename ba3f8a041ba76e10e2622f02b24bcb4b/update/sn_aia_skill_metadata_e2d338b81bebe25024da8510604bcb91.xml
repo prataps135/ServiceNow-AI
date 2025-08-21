@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_skill_metadata">
+    <sn_aia_skill_metadata action="INSERT_OR_UPDATE">
+        <description>Given the change request number, come up with a detailed 
+implementation plan, test plan, and backout plan.</description>
+        <document_id>691f14b81ba7e25024da8510604bcbe9</document_id>
+        <document_table>sn_aia_usecase</document_table>
+        <internal_name>global.x_aenpl_servicenow.SNAI Generate change request plans with notes</internal_name>
+        <name>SNAI Generate change request plans with notes</name>
+        <sys_class_name>sn_aia_skill_metadata</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 08:11:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e2d338b81bebe25024da8510604bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNAI Generate change request plans with notes</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_skill_metadata_e2d338b81bebe25024da8510604bcb91</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 08:11:44</sys_updated_on>
+    </sn_aia_skill_metadata>
+</record_update>

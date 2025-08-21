@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="SNAI Change implementation plan AI agent with work notes">11b264f41be7e25024da8510604bcbb0</agent>
+        <description>This tool updates the Implementation Plan to change request, and adds Work notes.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>copilot</execution_mode>
+        <inputs>[{"name":"implementation_plan","value":"","description":"proposed implementation  plan to be posted to the change request","mandatory":false,"invalidMessage":null},{"name":"number","value":"","description":"number of the change request extracted  from user input","mandatory":false,"invalidMessage":null}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Update implementation plan to change request and add Work notes</name>
+        <output_transformation_strategy>none</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 07:57:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>40b0f4f81babe25024da8510604bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update implementation plan to change request and add Work notes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_40b0f4f81babe25024da8510604bcb7a</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 07:57:54</sys_updated_on>
+        <tool display_value="Update implementation plan to change request and add Work notes">c4b0f4f81babe25024da8510604bcb75</tool>
+        <tool_attributes>{}</tool_attributes>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_trigger_configuration">
+    <sn_aia_trigger_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_rule/>
+        <channel display_value="Now Assist Panel">b023fcb3537321106167ddeeff7b12a8</channel>
+        <condition table="change_request">short_descriptionVALCHANGES^descriptionVALCHANGES^requested_byISNOTEMPTY^state=-5<item endquery="false" field="short_description" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="description" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="requested_by" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-5"/>
+        </condition>
+        <description/>
+        <enable_discovery>false</enable_discovery>
+        <internal_name>global.x_aenpl_servicenow.change_request_planner_copy</internal_name>
+        <name>SNAI Change Request Planner with notes</name>
+        <notification_script display_value="Show AIA notification - change_request">4a34df0b1bf6e29024da8510604bcbec</notification_script>
+        <objective_template><![CDATA[Recommend content for change request ${number}]]></objective_template>
+        <portal/>
+        <profile/>
+        <run_as>requested_by</run_as>
+        <run_as_script/>
+        <run_dayofmonth/>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start/>
+        <run_time/>
+        <show_notifications>true</show_notifications>
+        <sys_class_name>sn_aia_trigger_configuration</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:41:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f61f94b81ba7e25024da8510604bcb1a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SNAI Change Request Planner with notes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_trigger_configuration_f61f94b81ba7e25024da8510604bcb1a</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 07:59:55</sys_updated_on>
+        <target_table>change_request</target_table>
+        <trigger_flow display_value="Change Request - Use case: SNAI Generate change request plans with notes - fe1fd8781b67e250e2622f02b24bcb09">b21fd8781b67e250e2622f02b24bcb0b</trigger_flow>
+        <trigger_flow_definition_type>record_create_or_update</trigger_flow_definition_type>
+        <usecase display_value="SNAI Generate change request plans with notes">691f14b81ba7e25024da8510604bcbe9</usecase>
+        <usecase_discovery>false</usecase_discovery>
+    </sn_aia_trigger_configuration>
+</record_update>
