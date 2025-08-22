@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This tool updates the Implementation Plan to change request, and adds Work notes.</description>
+        <input_schema>[{"name":"implementation_plan","description":"proposed implementation  plan to be posted to the change request","mandatory":false},{"name":"number","description":"number of the change request extracted  from user input","mandatory":false}]</input_schema>
+        <name>Update implementation plan to change request and add Work notes</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[(function(inputs) {
+    // only string inputs are allowed 
+    // return outputs object where the keys in it are understandable by LLM  
+    var gr = new GlideRecord('change_request');
+    gr.addQuery('number', inputs.number);
+    gr.query();
+    if (gr.next()) {
+        gr.implementation_plan = inputs.implementation_plan;
+        gr.work_notes = inputs.implementation_plan; // Copy Implementation Plan to Work Notes too
+        gr.update();
+    }
+})(inputs);]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 07:57:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c4b0f4f81babe25024da8510604bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update implementation plan to change request and add Work notes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_tool_c4b0f4f81babe25024da8510604bcb75</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 07:57:54</sys_updated_on>
+        <target_document/>
+        <target_document_table>sn_aia_tool</target_document_table>
+        <type>script</type>
+    </sn_aia_tool>
+</record_update>

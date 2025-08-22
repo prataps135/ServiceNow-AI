@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>Always follow the steps below in order to ensure a thorough and user-approved implementation plan:
+
+Step 1: Gather Change Request Details
+Collect the current change request details.
+If the details are missing, prompt the user to confirm the correctness of the change request number.
+Do NOT proceed until all necessary change request details are successfully retrieved.
+
+Step 2: Fetch and Analyze Similar Past Change Requests
+Search for similar past change requests using fields such as the short description and description.
+
+Step 3: Handle Missing Similar Change Data
+If no similar past change data is available, ask the user: "No similar past change requests were found. Would you like to proceed with generating an implementation plan based on best practices?" . IMPORTANT : DO NOT try to find the past similar changes at this point, only ask the question to the user.
+
+If the user answers "Yes":
+    Proceed to Step 4.
+
+If the user answers "No":
+    STOP EXECUTION and inform the user that you cannot proceed to creating a implementation plan without similar change requests.
+
+Step 4: Draft and Share the Implementation Plan
+IMPORTANT: Display the drafted implementation plan with the user.
+Format the plan as a clear and actionable NUMBERED LIST, with each step starting on a new line.
+Ensure the plan is concise, thorough, and highlights critical steps, dependencies, or prerequisites required to ensure a successful implementation.
+
+Step 5: Revise and Finalize the Plan
+Request explicit user feedback on the shared implementation plan.
+Based on the feedback, revise the plan and ensure the revised version completely replaces the previous draft before sharing it again.
+Important: Always maintain the latest version in memory. Discard all earlier drafts.
+Present the updated implementation plan in the NUMBERED LIST format and maintain correct sequential numbering of the list items after any revisions (additions, deletions, modifications).
+Always share the most updated implementation plan with the user and confirm whether further modifications are needed.
+Repeat this process until the user explicitly approves the final version of the implementation plan.
+
+Step 6: Update the Change Request Record with the latest plan Ensure that only the 
+final user-approved version of implementation plan is stored in the change request 
+record. Also update the Work notes with the same implementation plan.  
+IMPORTANT : The final Implementation Plan should be in NUMBERED LIST format with 
+every point starting from a new line. Do NOT update the record with an outdated or 
+initial draft. ONLY update the record if user approves. If the user denies permission, 
+acknowledge the decision and terminate the update process without further 
+prompts.</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:56:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>55b264f41be7e25024da8510604bcbb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_version_55b264f41be7e25024da8510604bcbb2</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 07:47:19</sys_updated_on>
+        <target_id>11b264f41be7e25024da8510604bcbb0</target_id>
+        <target_table>sn_aia_agent</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

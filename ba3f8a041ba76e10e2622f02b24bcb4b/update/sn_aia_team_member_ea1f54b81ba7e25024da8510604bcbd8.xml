@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
+    <sn_aia_team_member action="INSERT_OR_UPDATE">
+        <agent display_value="Change justification proposal AI agent">0135b8b73b675a10a4f54560b5e45acd</agent>
+        <sys_class_name>sn_aia_team_member</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:41:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ea1f54b81ba7e25024da8510604bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_team_member_ea1f54b81ba7e25024da8510604bcbd8</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 06:41:05</sys_updated_on>
+        <team display_value="SNAI Generate change request plans with notes">6d1f14b81ba7e25024da8510604bcbe5</team>
+    </sn_aia_team_member>
+</record_update>

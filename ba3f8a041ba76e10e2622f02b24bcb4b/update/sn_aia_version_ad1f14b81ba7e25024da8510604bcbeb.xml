@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>A Change Request (CR) is a formal proposal submitted within an organization to modify, enhance, fix, or implement new processes, systems, applications, or infrastructure.
+
+Objective: Recommend content for a Change Request (CR) in the correct sequence.
+
+Steps to Follow:
+
+1. Trigger the Change implementation plan AI agent
+Condition: Always trigger this agent first.
+Note: If the implementation plan is already proposed and explicitly approved, skip to Step 2. Otherwise, complete the full implementation plan cycle.
+2. Trigger the Change backout plan AI agent
+Condition: Trigger this only after the implementation plan is finalized and approved.
+3. Trigger the Change test plan AI agent
+Condition: Trigger this only after the backout plan is finalized and approved.
+4. Trigger the Change risk and impact analysis AI agent
+Condition: Trigger this only after the test plan is finalized and approved.
+5. Trigger the Change justification proposal AI agent
+Condition: Trigger this only after the risk and impact analysis is finalized and approved.
+6. FINISH EXECUTION by triggering Finish change plan AI agent
+Thank the user for using Now Assist.</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:41:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ad1f14b81ba7e25024da8510604bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_version_ad1f14b81ba7e25024da8510604bcbeb</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 06:41:00</sys_updated_on>
+        <target_id>691f14b81ba7e25024da8510604bcbe9</target_id>
+        <target_table>sn_aia_usecase</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

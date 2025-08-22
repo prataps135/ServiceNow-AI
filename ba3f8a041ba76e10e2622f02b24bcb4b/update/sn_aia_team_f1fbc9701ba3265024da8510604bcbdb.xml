@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team">
+    <sn_aia_team action="INSERT_OR_UPDATE">
+        <description>Reviews and updates a knowledge article with added expertise.</description>
+        <name>SNAI Knowledge Expert</name>
+        <sys_class_name>sn_aia_team</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 09:57:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f1fbc9701ba3265024da8510604bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SNAI Knowledge Expert</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_team_f1fbc9701ba3265024da8510604bcbdb</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 09:57:23</sys_updated_on>
+    </sn_aia_team>
+</record_update>

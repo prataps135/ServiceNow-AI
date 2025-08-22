@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>7</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">94d252441be76e10e2622f02b24bcb5a</sp_column>
+        <sp_widget display_value="App Launcher">63bbd51859fb3050f8776ff4b4b3e387</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:11:12</sys_created_on>
+        <sys_id>54d252441be76e10e2622f02b24bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sp_instance_54d252441be76e10e2622f02b24bcb6e</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:11:12</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+		"title_of_widget": {
+			"value": "My applications",
+			"displayValue": "My applications"
+		},
+		"application_count": {
+			"value": 6,
+			"displayValue": "6"
+		},
+		"card_display_view": {
+			"value": "Icon, Title, Description",
+			"displayValue": "Icon, Title, Description"
+		},
+		"show_empty_state": {
+			"value": "false",
+			"displayValue": "false"
+		}
+	}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=54d252441be76e10e2622f02b24bcb6e"/>
+</record_update>

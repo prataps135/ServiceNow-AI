@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <attachment_limit>5</attachment_limit>
+        <collapse_attachment>true</collapse_attachment>
+        <document_match_count>3</document_match_count>
+        <document_match_threshold>0.65</document_match_threshold>
+        <enable_exact_match>true</enable_exact_match>
+        <enable_semantic_search>false</enable_semantic_search>
+        <evam_definition/>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
+        <genius_results_limit>10</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>ServiceNow AI Search Application</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="ServiceNow AI Search Profile">2e769a041b2b6e10e2622f02b24bcb7b</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <semantic_groupby>none</semantic_groupby>
+        <semantic_search_mode>keyword</semantic_search_mode>
+        <semantic_type>standard</semantic_type>
+        <show_disabled_facets>false</show_disabled_facets>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:23:01</sys_created_on>
+        <sys_id>ac755a401b2b6e10e2622f02b24bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ServiceNow AI Search Application</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_search_context_config_ac755a401b2b6e10e2622f02b24bcbf5</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:33:28</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac755a401b2b6e10e2622f02b24bcbf5"/>
+</record_update>

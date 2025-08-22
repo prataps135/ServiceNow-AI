@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_context_profile_message">
+    <sys_cs_context_profile_message action="INSERT_OR_UPDATE">
+        <context_profile display_value="ServiceNow AI Now Assist VA">675b9ec01b6b6e10e2622f02b24bcb3f</context_profile>
+        <message>Now Assist detected some content that might be harmful, sensitive, or offensive. You can try rephrasing, or you can ask about something else.</message>
+        <sys_class_name>sys_cs_context_profile_message</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:48:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>275b9ec01b6b6e10e2622f02b24bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Assist detected some content that might be harmful, sensitive, or offensive. You can try rephrasing, or you can ask about something else.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_cs_context_profile_message_275b9ec01b6b6e10e2622f02b24bcb9b</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:48:34</sys_updated_on>
+        <type>guardian_generic_message</type>
+    </sys_cs_context_profile_message>
+    <sys_translated_text action="delete_multiple" query="documentkey=275b9ec01b6b6e10e2622f02b24bcb9b"/>
+</record_update>

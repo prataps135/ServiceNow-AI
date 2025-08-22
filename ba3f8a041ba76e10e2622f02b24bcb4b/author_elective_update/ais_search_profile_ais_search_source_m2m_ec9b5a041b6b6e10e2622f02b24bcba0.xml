@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="DELETE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>true</exclude_in_regular_search>
+        <profile display_value="ServiceNow AI Now Assist VA Primary">8c9b5a041b6b6e10e2622f02b24bcb4b</profile>
+        <search_source display_value="Custom skills">fc4703dbe4cf9a10f877f4c9ef9e2d17</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:49:26</sys_created_on>
+        <sys_id>ec9b5a041b6b6e10e2622f02b24bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow AI Now Assist VA Primary.Custom skills</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_ec9b5a041b6b6e10e2622f02b24bcba0</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:49:26</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</application>
+        <file_path/>
+        <instance_id>379c2d46db813010e03ad7c8f4961970</instance_id>
+        <instance_name>aelumconsultingpvtltddemo3</instance_name>
+        <name>ais_search_profile_ais_search_source_m2m_ec9b5a041b6b6e10e2622f02b24bcba0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m"><ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE"><exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results><exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results><exclude_in_regular_search>true</exclude_in_regular_search><profile display_value="ServiceNow AI Now Assist VA Primary">8c9b5a041b6b6e10e2622f02b24bcb4b</profile><search_source display_value="Custom skills">fc4703dbe4cf9a10f877f4c9ef9e2d17</search_source><sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name><sys_created_by>Pratap.S</sys_created_by><sys_created_on>2025-08-19 07:49:26</sys_created_on><sys_id>ec9b5a041b6b6e10e2622f02b24bcba0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow AI Now Assist VA Primary.Custom skills</sys_name><sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package><sys_policy/><sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope><sys_update_name>ais_search_profile_ais_search_source_m2m_ec9b5a041b6b6e10e2622f02b24bcba0</sys_update_name><sys_updated_by>Pratap.S</sys_updated_by><sys_updated_on>2025-08-19 07:49:26</sys_updated_on></ais_search_profile_ais_search_source_m2m></record_update>]]></payload>
+        <payload_hash>-694091563</payload_hash>
+        <record_name>ServiceNow AI Now Assist VA Primary.Custom skills</record_name>
+        <reverted_from/>
+        <source>31a0d6c81ba76e10e2622f02b24bcb4f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:49:26</sys_created_on>
+        <sys_id>a09b5a041b6b6e10e2622f02b24bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198c14dee0f0000001</sys_recorded_at>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:49:26</sys_updated_on>
+        <type>AI Search Search Profile Search Source M</type>
+        <update_guid>ac9b5a04a86b6e1013d7d2ba2fd089a5</update_guid>
+        <update_guid_history>ac9b5a04a86b6e1013d7d2ba2fd089a5:-694091563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ServiceNow AI Now Assist VA Primary.Custom skills">28fb1a441b6b6e10e2622f02b24bcb3c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:51:05</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_profile_ais_search_source_m2m">ais_search_profile_ais_search_source_m2m</sys_db_object>
+        <sys_id>09ba6717b2bf48088a3f9d281585da90</sys_id>
+        <sys_metadata>ec9b5a041b6b6e10e2622f02b24bcba0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow AI Now Assist VA Primary.Custom skills</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_scope_delete display_value="">af580a66de864184b9c2d33df5834090</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_ec9b5a041b6b6e10e2622f02b24bcba0</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_search_source_m2m_ec9b5a041b6b6e10e2622f02b24bcba0">a09b5a041b6b6e10e2622f02b24bcbb3</sys_update_version>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:51:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

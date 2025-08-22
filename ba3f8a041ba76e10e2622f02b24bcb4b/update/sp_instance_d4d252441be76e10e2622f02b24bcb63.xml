@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">94d252441be76e10e2622f02b24bcb5a</sp_column>
+        <sp_widget display_value="News Feed">914abc314341211039c01317bab8f29b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:11:12</sys_created_on>
+        <sys_id>d4d252441be76e10e2622f02b24bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Latest news and events</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sp_instance_d4d252441be76e10e2622f02b24bcb63</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:11:12</sys_updated_on>
+        <title>Latest news and events</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"title": {
+		"value": "Latest news and events",
+		"displayValue": "Latest news and events"
+	},
+	"layout": {
+		"value": "call_to_action",
+		"displayValue": "Call to action"
+	},
+	"page_size": {
+		"value": 3,
+		"displayValue": "3"
+	},
+	"action_text": {
+		"value": "Go to news and events",
+		"displayValue": "Go to news and events"
+	},
+	"action_page_id": {
+		"value": "a3bb188f43312110a489a06aeab8f240",
+		"displayValue": "cd_news_center"
+	},
+	"show_thumbnail": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"load_async": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"default_thumbnail": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_subheadline": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"inline_loading": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"enable_controls": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"default_view": {
+		"value": "grid",
+		"displayValue": "Grid"
+	},
+	"show_categories": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4d252441be76e10e2622f02b24bcb63"/>
+</record_update>

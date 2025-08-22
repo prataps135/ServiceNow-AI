@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>$border-radius-large: 8px !default;
+.widget-container {
+  margin-top: 3.2rem;
+  .carousel-layout-wrapper {
+    .portal-authoring .sca-author-view-outline {
+      top: 3.2rem;
+    }
+    
+    .carousel-layout {
+      .widget-content {
+        border-radius: $border-radius-large;
+        
+        .styled-widget:after,
+        .banner-widget:after {
+          border-radius: $border-radius-large;
+        }
+      }
+    }
+  }
+  
+  .list-layout {
+    .widget-content {
+      border-top-left-radius: $border-radius-large;
+      border-bottom-left-radius: $border-radius-large;
+      
+      .widgets-wrapper {
+        overflow: hidden;
+        border-top-left-radius: $border-radius-large;
+        border-bottom-left-radius: $border-radius-large;
+
+        &amp;.single-content {
+          border-radius: $border-radius-large;
+        }
+      }
+      
+      .styled-widget:after,
+      .banner-widget:after {
+        border-top-left-radius: $border-radius-large;
+        border-bottom-left-radius: $border-radius-large;
+      }
+    }
+    
+    .list {
+      &gt; *:last-child:not(.scroll-btns) {
+        border-bottom-right-radius: $border-radius-large;
+        
+        li:last-child {
+          border-bottom-right-radius: $border-radius-large;
+          
+          .btn {
+            border-bottom-right-radius: $border-radius-large;
+          }
+        }
+      }
+      
+      .list-unstyled {
+        border-top-right-radius: $border-radius-large;
+        
+        li:first-child {
+          border-top-right-radius: $border-radius-large;
+          
+          .btn {
+            border-top-right-radius: $border-radius-large;
+          }
+        }
+      }
+      
+      .scroll-btns {
+        border-bottom-right-radius: $border-radius-large;
+        
+        .btn:last-child {
+          border-bottom-right-radius: $border-radius-large;
+        }
+      }
+    }
+  }
+}</css>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9cd252441be76e10e2622f02b24bcb4e</sp_column>
+        <sp_widget display_value="Content Experience">26b2b8cfff02201014c6a36cf43bf1a0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-19 07:11:11</sys_created_on>
+        <sys_id>10d252441be76e10e2622f02b24bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CEW - Header</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sp_instance_10d252441be76e10e2622f02b24bcb52</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-19 07:11:11</sys_updated_on>
+        <title>CEW - Header</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"displayHeadingText": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"displayBoundingBox": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"showBackground": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"layoutTypes": {
+		"value": "Tiles",
+		"displayValue": "Tiles"
+	},
+	"expandBkgdImage": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"widgetHeight": {
+		"value": "330px",
+		"displayValue": "330px"
+	},
+	"showExtraTile": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "Asynchronous"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=10d252441be76e10e2622f02b24bcb52"/>
+</record_update>

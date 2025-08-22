@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="SNAI Change implementation plan AI agent with work notes">11b264f41be7e25024da8510604bcbb0</agent>
+        <description>Fetch change requests which contain similar and relevant information to search query. It should be used only to fetch relevant change requests based on the current change request details. This tool is to be run ONLY ONE TIME to find any relevant change requests related to the issue in the change request.</description>
+        <display_output>false</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[{"name":"number","value":"","description":"number of the change request extracted from user input"}]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Get Similar change requests</name>
+        <output_transformation_strategy>summary_for_search_results</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 06:56:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1db264f41be7e25024da8510604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Similar change requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_1db264f41be7e25024da8510604bcbc7</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 06:56:50</sys_updated_on>
+        <tool display_value="Get Similar change requests">c8d125c44747521099b6cea5936d432b</tool>
+        <tool_attributes>{}</tool_attributes>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>
