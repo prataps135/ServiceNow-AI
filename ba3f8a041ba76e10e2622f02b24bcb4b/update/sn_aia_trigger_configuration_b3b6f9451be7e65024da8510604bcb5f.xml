@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_trigger_configuration">
+    <sn_aia_trigger_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_rule/>
+        <channel display_value="Now Assist Panel">b023fcb3537321106167ddeeff7b12a8</channel>
+        <condition table="incident">short_descriptionLIKEVegas<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Vegas"/>
+        </condition>
+        <description/>
+        <enable_discovery>false</enable_discovery>
+        <internal_name>global.x_aenpl_servicenow.snai_vegas_survival_incident</internal_name>
+        <name>SNAI Vegas Survival Incident</name>
+        <notification_script display_value="Show AIA notification - incident">0a9ef2871b36e29024da8510604bcba7</notification_script>
+        <objective_template><![CDATA[Help me resolve ${number}]]></objective_template>
+        <portal/>
+        <profile/>
+        <run_as>assigned_to</run_as>
+        <run_as_script/>
+        <run_dayofmonth/>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start/>
+        <run_time/>
+        <show_notifications>true</show_notifications>
+        <sys_class_name>sn_aia_trigger_configuration</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b3b6f9451be7e65024da8510604bcb5f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_trigger_configuration_b3b6f9451be7e65024da8510604bcb5f</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:33</sys_updated_on>
+        <target_table>incident</target_table>
+        <trigger_flow display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</trigger_flow>
+        <trigger_flow_definition_type>record_create</trigger_flow_definition_type>
+        <usecase display_value="SNAI Vegas Survival Helper">51e415301ba7265024da8510604bcbd3</usecase>
+        <usecase_discovery>false</usecase_discovery>
+    </sn_aia_trigger_configuration>
+</record_update>

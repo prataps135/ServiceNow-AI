@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>intermediateFlowVersion=0.4,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2000</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>agentic_ai</generation_source>
+        <internal_name>incident__use_case_snai_vegas_survival_helper__8cc6790d1be7a650e2622f02b24bcb7e</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"10c6790d-efe7-a650-a3b8-9a4a1c2face6":["target_record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>a0c6b90d1be7a650e2622f02b24bcb64</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>448672431bf2e29024da8510604bcb81</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0cc6790d1be7a650e2622f02b24bcb7f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_hub_flow_0cc6790d1be7a650e2622f02b24bcb7f</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>1</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">short_descriptionLIKEVegas<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Vegas"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>swapnil.j</sys_created_by>
+        <sys_created_on>2025-07-22 10:41:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>448672431bf2e29024da8510604bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <table>incident</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>0cc6790d1be7a650e2622f02b24bcb7f</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>b4c6b90d1be7a650e2622f02b24bcbbc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <trigger display_value="">448672431bf2e29024da8510604bcb81</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT INb4c6b90d1be7a650e2622f02b24bcbbc"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT IN08c6790d1be7a650e2622f02b24bcb80"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0cc6790d1be7a650e2622f02b24bcb7f</id>
+        <name>Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e</name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:29</sys_created_on>
+        <sys_id>08c6790d1be7a650e2622f02b24bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=08c6790d1be7a650e2622f02b24bcb80"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT IN18c6b90d1be7a650e2622f02b24bcb0b,d4c6b90d1be7a650e2622f02b24bcb07"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</model>
+        <model_id>0cc6790d1be7a650e2622f02b24bcb7f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0cc6790d1be7a650e2622f02b24bcb7f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>18c6b90d1be7a650e2622f02b24bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18c6b90d1be7a650e2622f02b24bcb0b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</model>
+        <model_id>0cc6790d1be7a650e2622f02b24bcb7f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0cc6790d1be7a650e2622f02b24bcb7f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>d4c6b90d1be7a650e2622f02b24bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d4c6b90d1be7a650e2622f02b24bcb07"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT IN50c6b90d1be7a650e2622f02b24bcb02"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</flow>
+        <generation_source>agentic_ai</generation_source>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>50c6b90d1be7a650e2622f02b24bcb02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50c6b90d1be7a650e2622f02b24bcb02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>50c6b90d1be7a650e2622f02b24bcb02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>50c6b90d1be7a650e2622f02b24bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <value>short_descriptionLIKEVegas</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>50c6b90d1be7a650e2622f02b24bcb02</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>58c6b90d1be7a650e2622f02b24bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT IN90c6b90d1be7a650e2622f02b24bcb38"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="AIA Trigger Use Case">0b63e51a53c7121059e0ddeeff7b12b5</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</flow>
+        <generation_source>agentic_ai</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>90c6b90d1be7a650e2622f02b24bcb38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <ui_id>10c6790d-efe7-a650-a3b8-9a4a1c2face6</ui_id>
+        <updation_source/>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90c6b90d1be7a650e2622f02b24bcb38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90c6b90d1be7a650e2622f02b24bcb38</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>d0c6b90d1be7a650e2622f02b24bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <value>b3b6f9451be7e65024da8510604bcb5f</value>
+        <variable display_value="Trigger Configuration Id">8f63e51a53c7121059e0ddeeff7b12b8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90c6b90d1be7a650e2622f02b24bcb38"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>90c6b90d1be7a650e2622f02b24bcb38</id>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>50c6b90d1be7a650e2622f02b24bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0b63e51a53c7121059e0ddeeff7b12b5</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>trigger_configuration_id</field>
+        <id>90c6b90d1be7a650e2622f02b24bcb38</id>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>98c6b90d1be7a650e2622f02b24bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0b63e51a53c7121059e0ddeeff7b12b5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90c6b90d1be7a650e2622f02b24bcb38"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90c6b90d1be7a650e2622f02b24bcb38"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0cc6790d1be7a650e2622f02b24bcb7f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>1cc6b90d1be7a650e2622f02b24bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0cc6790d1be7a650e2622f02b24bcb7f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:31</sys_created_on>
+        <sys_id>54c6b90d1be7a650e2622f02b24bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0cc6790d1be7a650e2622f02b24bcb7f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>intermediateFlowVersion=0.4,labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>incident__use_case_snai_vegas_survival_helper__8cc6790d1be7a650e2622f02b24bcb7e</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"10c6790d-efe7-a650-a3b8-9a4a1c2face6":["target_record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">0cc6790d1be7a650e2622f02b24bcb7f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0c6b90d1be7a650e2622f02b24bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a0c6b90d1be7a650e2622f02b24bcb64^sys_idNOT INecc6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a0c6b90d1be7a650e2622f02b24bcb64</id>
+        <name>Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e</name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>ecc6b90d1be7a650e2622f02b24bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ecc6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a0c6b90d1be7a650e2622f02b24bcb64^sys_idNOT IN6cc6b90d1be7a650e2622f02b24bcb65,a4c6b90d1be7a650e2622f02b24bcb70"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">a0c6b90d1be7a650e2622f02b24bcb64</model>
+        <model_id>a0c6b90d1be7a650e2622f02b24bcb64</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a0c6b90d1be7a650e2622f02b24bcb64</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>6cc6b90d1be7a650e2622f02b24bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6cc6b90d1be7a650e2622f02b24bcb65"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident - Use case: SNAI Vegas Survival Helper - 8cc6790d1be7a650e2622f02b24bcb7e">a0c6b90d1be7a650e2622f02b24bcb64</model>
+        <model_id>a0c6b90d1be7a650e2622f02b24bcb64</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a0c6b90d1be7a650e2622f02b24bcb64</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>a4c6b90d1be7a650e2622f02b24bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a4c6b90d1be7a650e2622f02b24bcb70"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a0c6b90d1be7a650e2622f02b24bcb64</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>20c6b90d1be7a650e2622f02b24bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a0c6b90d1be7a650e2622f02b24bcb64</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_id>28c6b90d1be7a650e2622f02b24bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a0c6b90d1be7a650e2622f02b24bcb64"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>0cc6790d1be7a650e2622f02b24bcb7f</sys_id>
+        <latest_snapshot>a0c6b90d1be7a650e2622f02b24bcb64</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0cc6790d1be7a650e2622f02b24bcb7f^sys_idNOT INfcc6b90d1be7a650e2622f02b24bcbbc"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>0cc6790d1be7a650e2622f02b24bcb7f</plan_id>
+        <snapshot>a0c6b90d1be7a650e2622f02b24bcb64</snapshot>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 07:42:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fcc6b90d1be7a650e2622f02b24bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:42:32</sys_updated_on>
+        <trigger display_value="">448672431bf2e29024da8510604bcb81</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0cc6790d1be7a650e2622f02b24bcb7f"/>
+</record_update>

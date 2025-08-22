@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_tool">
+    <sn_aia_tool action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Update the Description of the incident based on the incident number</description>
+        <input_schema>[{"name":"number","description":"Incident Number","mandatory":false},{"name":"description","description":"Incident Description","mandatory":false}]</input_schema>
+        <name>Update Incident Description</name>
+        <record_type>custom</record_type>
+        <script><![CDATA[(function(inputs) {
+    // only string inputs are allowed 
+    // return outputs object where the keys in it are understandable by LLM
+    if (!inputs) return {
+        message: 'No inputs found, could not make Incident updates.'
+    };
+    var gr = new GlideRecord('incident');
+    gr.addQuery('number', inputs.number);
+    gr.setLimit(1);
+    gr.query();
+    if (gr.next()) {
+        gr.description = inputs.description;
+        if (inputs.description != '') {
+            var updateStatus = gr.update();
+            if (updateStatus) {
+                return;
+            }
+            else {
+                return {
+                    message: 'Incident updates could not be made, update failed.'
+                };
+            }
+        }
+        else {
+            return {
+                message: 'No Incident updates available.'
+            };
+        }
+    } else {
+        return {
+            message: 'No Incident found, could not update.'
+        };
+    }
+})(inputs);
+]]></script>
+        <sys_class_name>sn_aia_tool</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-21 13:11:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3f687db01baf265024da8510604bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Incident Description</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_tool_3f687db01baf265024da8510604bcbb7</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-21 13:11:22</sys_updated_on>
+        <target_document/>
+        <target_document_table>sn_aia_tool</target_document_table>
+        <type>script</type>
+    </sn_aia_tool>
+</record_update>

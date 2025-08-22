@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="SNAI Vegas Expert Agent">d0f9f5381baf265024da8510604bcbeb</agent>
+        <description>Search for any Knowledge articles that have to do with Vegas survival and escape.</description>
+        <display_output>true</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[&#13;
+  {&#13;
+    "name": "search_type",&#13;
+    "description": "Search type",&#13;
+    "value": "hybrid"&#13;
+  },&#13;
+  {&#13;
+    "name": "query",&#13;
+    "description": "search query for retrieving relevant information from Knowledge Table"&#13;
+  },&#13;
+  {&#13;
+    "name": "search_profile",&#13;
+    "value": "quick_action_kb_search_profile",&#13;
+    "label": "Quick Action - KB Search Profile",&#13;
+    "description": "Search profile"&#13;
+  },&#13;
+  {&#13;
+    "name": "sources",&#13;
+    "label": [&#13;
+      "Knowledge Table"&#13;
+    ],&#13;
+    "value": [&#13;
+      "kb_knowledge"&#13;
+    ],&#13;
+    "description": "Search sources"&#13;
+  },&#13;
+  {&#13;
+    "name": "fields",&#13;
+    "label": [&#13;
+      "Short description [kb_knowledge]",&#13;
+      "Article body [kb_knowledge]"&#13;
+    ],&#13;
+    "value": [&#13;
+      "kb_knowledge.short_description",&#13;
+      "kb_knowledge.text"&#13;
+    ],&#13;
+    "description": "Fields to be returned"&#13;
+  },&#13;
+  {&#13;
+    "name": "search_results_limit",&#13;
+    "value": "5",&#13;
+    "description": "Search results limit"&#13;
+  },&#13;
+  {&#13;
+    "name": "semantic_index_names",&#13;
+    "label": [&#13;
+      "body",&#13;
+      "title"&#13;
+    ],&#13;
+    "value": [&#13;
+      "body",&#13;
+      "title"&#13;
+    ],&#13;
+    "description": "Semantic indexed fields"&#13;
+  },&#13;
+  {&#13;
+    "name": "document_match_threshold",&#13;
+    "value": 0.5,&#13;
+    "description": "Document matching threshold"&#13;
+  }&#13;
+]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>SNAI Vegas Knowledge Search</name>
+        <output_transformation_strategy>summary_for_search_results</output_transformation_strategy>
+        <post_processing_script><![CDATA[// /*
+//  * Available Variables:
+//  * - output: The raw output from the tool.
+//  * - context: Additional context variables (e.g., { portal: 'sp' }).
+//  *
+//  * Return an object like: { processed_output: "Your final result here" }
+//  * processed_output may be a primitive data type or JSON
+//  */
+// (function(output, context) {
+//     return {
+//         processed_output: "Default processed output." // Replace with your actual processed data here
+//     };
+// })(output, context);]]></post_processing_script>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>Pratap.S</sys_created_by>
+        <sys_created_on>2025-08-22 06:50:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>99c9adcd1b27e65024da8510604bcb5c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SNAI Vegas Knowledge Search</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_99c9adcd1b27e65024da8510604bcb5c</sys_update_name>
+        <sys_updated_by>Pratap.S</sys_updated_by>
+        <sys_updated_on>2025-08-22 07:35:06</sys_updated_on>
+        <tool display_value="AIA RAG Retriever">8021ddea2b0d52101d72fb466e91bfd1</tool>
+        <tool_attributes>{}</tool_attributes>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>
