@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase">
     <sn_aia_usecase action="INSERT_OR_UPDATE">
-        <applicability_script><![CDATA[/** 
- * Function to process inputs related to ServiceNow change request operations 
- * 
- * @param {Object} inputs - The input parameters object 
- * @param {string} inputs.objective - The purpose or goal of the operation 
- * @param {string} inputs.execution_plan_id - Unique identifier for the execution plan 
- * @param {Object} inputs.context - Context information about the ServiceNow change request 
- * @param {string} inputs.context.url - The URL of the change request in Service Operations Workspace 
- * @param {string} inputs.context.table - The ServiceNow table name (e.g., 'change_request') 
- * @param {string} inputs.context.record_sys_id - The sys ID of the record 
- * @param {string} inputs.context.route - The route type (e.g., 'record') 
- * @param {string} inputs.context.additional_context - Additional contextual information in JSON format 
- * @param {string} inputs.context.experience - The UI experience name (e.g., 'Service Operations Workspace') 
- * @param {string} inputs.context.number - The request number 
- * @param {string} inputs.context.portal - The portal ID 
- * 
- * @returns {boolean} Returns true/false 
- */
-(function(inputs) {
-    /** const { objective, execution_plan_id, context } = inputs; 
-    return context.table == 'incident' ; */
-    return false;
-})(inputs);]]></applicability_script>
         <base_plan>Review and improve a knowledge article's value and quality by enriching the content.</base_plan>
         <description>Reviews and updates a knowledge article with added expertise.</description>
         <execution_mode>copilot</execution_mode>
         <internal_name>global.x_aenpl_servicenow.SNAI Knowledge Expert</internal_name>
         <name>SNAI Knowledge Expert</name>
-        <parent/>
         <record_type>custom</record_type>
-        <source_id/>
-        <strategy display_value="ReActive Planner">b264c470ff1022106c36ffffffffff67</strategy>
         <sys_class_name>sn_aia_usecase</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 09:57:05</sys_created_on>
@@ -46,5 +20,6 @@
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 09:57:23</sys_updated_on>
         <team display_value="SNAI Knowledge Expert">f1fbc9701ba3265024da8510604bcbdb</team>
+        <version/>
     </sn_aia_usecase>
 </record_update>

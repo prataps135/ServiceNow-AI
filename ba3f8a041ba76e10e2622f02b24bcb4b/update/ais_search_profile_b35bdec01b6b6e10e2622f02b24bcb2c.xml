@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
-        <creator_source/>
         <description/>
         <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
         <label>Now Assist in Virtual Agent - 1</label>
         <name>x_aenpl_servicenow_now_assist_in_virtual_agent_1235b5ec01b6b6e10e2622f02b24bcbfd</name>
-        <publish_id>c7f05a68-e49b-4d25-a3ca-52220be5e710</publish_id>
+        <publish_id>23d5ed34-12d2-40f7-86f8-4ef8feb2a0a2</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>

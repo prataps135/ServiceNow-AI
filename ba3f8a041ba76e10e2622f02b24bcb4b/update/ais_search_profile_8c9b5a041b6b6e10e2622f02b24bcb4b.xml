@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
-        <creator_source/>
         <description/>
         <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
         <label>ServiceNow AI Now Assist VA Primary</label>
         <name>x_aenpl_servicenow_servicenow_ai_now_assist_va_primary</name>
-        <publish_id>e71a5310-d51e-4988-bbce-ddf4e64539ee</publish_id>
+        <publish_id>c125ba20-90c5-416a-89bb-509fc85335a5</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>

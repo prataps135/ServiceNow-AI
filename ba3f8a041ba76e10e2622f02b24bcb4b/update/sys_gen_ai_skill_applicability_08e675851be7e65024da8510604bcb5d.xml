@@ -7,7 +7,6 @@
 	// customize condition logic here, return true or false   
 	return false;
 })(current);]]></condition_script>
-        <context_profile/>
         <roles>now_assist_panel_user</roles>
         <skill_id display_value="SNAI Vegas Survival Helper">c7d6f1851be7e65024da8510604bcb28</skill_id>
         <sys_class_name>sys_gen_ai_skill_applicability</sys_class_name>

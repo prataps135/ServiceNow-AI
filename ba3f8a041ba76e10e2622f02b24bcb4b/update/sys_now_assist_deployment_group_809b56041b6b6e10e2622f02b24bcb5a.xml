@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_now_assist_deployment_group">
     <sys_now_assist_deployment_group action="INSERT_OR_UPDATE">
         <primary_deployment_id display_value="ServiceNow AI Now Assist VA">235b5ec01b6b6e10e2622f02b24bcbfd</primary_deployment_id>
-        <secondary_deployment_id display_value="Now Assist in Virtual Agent (default)">fa46d11b772131101b53c5ed3c5a99c5</secondary_deployment_id>
+        <secondary_deployment_id display_value="">fa46d11b772131101b53c5ed3c5a99c5</secondary_deployment_id>
         <sys_class_name>sys_now_assist_deployment_group</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:49:25</sys_created_on>

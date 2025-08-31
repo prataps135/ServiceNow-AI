@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_now_assist_deployment">
     <sys_now_assist_deployment action="INSERT_OR_UPDATE">
         <active>true</active>
-        <assistant_type>nava</assistant_type>
         <description>ServiceNow AI Now Assist VA</description>
         <name>ServiceNow AI Now Assist VA</name>
         <relationship_type>primary</relationship_type>

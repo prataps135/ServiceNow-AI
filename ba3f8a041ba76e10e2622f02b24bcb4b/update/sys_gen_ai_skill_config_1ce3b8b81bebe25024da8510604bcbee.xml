@@ -4,7 +4,7 @@
         <channels/>
         <discoverable>true</discoverable>
         <hint>SNAI Generate change request plans with notes</hint>
-        <skill_id display_value="SNAI Generate change request plans with notes">fad338b81bebe25024da8510604bcba1</skill_id>
+        <skill_id display_value="SNAI Generate change request plans with ">fad338b81bebe25024da8510604bcba1</skill_id>
         <supervision/>
         <sys_class_name>sys_gen_ai_skill_config</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>

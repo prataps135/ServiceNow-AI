@@ -86,7 +86,6 @@ button:focus, input:focus {&#13;
         <id/>
         <order>1</order>
         <placeholder/>
-        <result_count_font_size>md</result_count_font_size>
         <roles/>
         <search_application/>
         <search_results_configuration/>

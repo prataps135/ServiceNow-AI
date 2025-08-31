@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>35471db41ba7265024da8510604bcb31</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SNAI Get Incident Description</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_35471db41ba7265024da8510604bcb31</sys_update_name>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 10:57:25</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:31:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -189,18 +189,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=30c995b41be7265024da8510604bcb65"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>30c995b41be7265024da8510604bcb65</id>
-        <sys_created_by>Pratap.S</sys_created_by>
-        <sys_created_on>2025-08-21 10:57:23</sys_created_on>
-        <sys_id>89c995b41be7265024da8510604bcb7e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>number</field>
         <id>30c995b41be7265024da8510604bcb65</id>
         <sys_created_by>Pratap.S</sys_created_by>
@@ -211,18 +199,6 @@
         <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_30c995b41be7265024da8510604bcb65</table>
         <value>{{action.incident_number}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>30c995b41be7265024da8510604bcb65</id>
-        <sys_created_by>Pratap.S</sys_created_by>
-        <sys_created_on>2025-08-21 10:57:23</sys_created_on>
-        <sys_id>41c995b41be7265024da8510604bcb7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_30c995b41be7265024da8510604bcb65^id=30c995b41be7265024da8510604bcb65"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=30c995b41be7265024da8510604bcb65"/>
@@ -492,11 +468,11 @@
         <sys_created_on>2025-08-21 10:57:22</sys_created_on>
         <sys_id>34c995b41be7265024da8510604bcb73</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_30c995b41be7265024da8510604bcb65_description_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:22</sys_updated_on>
         <url/>
@@ -515,11 +491,11 @@
         <sys_created_on>2025-08-21 10:57:22</sys_created_on>
         <sys_id>cdc995b41be7265024da8510604bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>content</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_30c995b41be7265024da8510604bcb65_content_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:22</sys_updated_on>
         <url/>
@@ -984,11 +960,11 @@
         <sys_created_on>2025-08-21 10:57:22</sys_created_on>
         <sys_id>b4c995b41be7265024da8510604bcb40</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Incident Number</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_35471db41ba7265024da8510604bcb31_incident_number_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:22</sys_updated_on>
         <url/>
@@ -1008,11 +984,11 @@
         <sys_created_on>2025-08-21 10:57:23</sys_created_on>
         <sys_id>41c995b41be7265024da8510604bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_35471db41ba7265024da8510604bcb31_description_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
         <url/>
@@ -1031,11 +1007,11 @@
         <sys_created_on>2025-08-21 10:57:23</sys_created_on>
         <sys_id>49c995b41be7265024da8510604bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_35471db41ba7265024da8510604bcb31___action_status___en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
         <url/>
@@ -1054,11 +1030,11 @@
         <sys_created_on>2025-08-21 10:57:23</sys_created_on>
         <sys_id>81c995b41be7265024da8510604bcbdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_35471db41ba7265024da8510604bcb31___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
         <url/>
@@ -1077,11 +1053,11 @@
         <sys_created_on>2025-08-21 10:57:23</sys_created_on>
         <sys_id>89c995b41be7265024da8510604bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>content</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_35471db41ba7265024da8510604bcb31_content_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:23</sys_updated_on>
         <url/>
@@ -1290,18 +1266,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=95c9d5b41be7265024da8510604bcb2d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>95c9d5b41be7265024da8510604bcb2d</id>
-        <sys_created_by>Pratap.S</sys_created_by>
-        <sys_created_on>2025-08-21 10:57:24</sys_created_on>
-        <sys_id>adc9d5b41be7265024da8510604bcb5c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>number</field>
         <id>95c9d5b41be7265024da8510604bcb2d</id>
         <sys_created_by>Pratap.S</sys_created_by>
@@ -1312,18 +1276,6 @@
         <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_95c9d5b41be7265024da8510604bcb2d</table>
         <value>{{action.incident_number}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>95c9d5b41be7265024da8510604bcb2d</id>
-        <sys_created_by>Pratap.S</sys_created_by>
-        <sys_created_on>2025-08-21 10:57:24</sys_created_on>
-        <sys_id>61c9d5b41be7265024da8510604bcb5d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_95c9d5b41be7265024da8510604bcb2d^id=95c9d5b41be7265024da8510604bcb2d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=95c9d5b41be7265024da8510604bcb2d"/>
@@ -1593,11 +1545,11 @@
         <sys_created_on>2025-08-21 10:57:24</sys_created_on>
         <sys_id>1dc9d5b41be7265024da8510604bcb39</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95c9d5b41be7265024da8510604bcb2d_description_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
         <url/>
@@ -1616,11 +1568,11 @@
         <sys_created_on>2025-08-21 10:57:24</sys_created_on>
         <sys_id>d5c9d5b41be7265024da8510604bcb3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>content</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_95c9d5b41be7265024da8510604bcb2d_content_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
         <url/>
@@ -2085,11 +2037,11 @@
         <sys_created_on>2025-08-21 10:57:24</sys_created_on>
         <sys_id>15c9d5b41be7265024da8510604bcb28</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Incident Number</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_11c9d5b41be7265024da8510604bcb21_incident_number_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:24</sys_updated_on>
         <url/>
@@ -2109,11 +2061,11 @@
         <sys_created_on>2025-08-21 10:57:25</sys_created_on>
         <sys_id>29c9d5b41be7265024da8510604bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_11c9d5b41be7265024da8510604bcb21___action_status___en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:25</sys_updated_on>
         <url/>
@@ -2132,11 +2084,11 @@
         <sys_created_on>2025-08-21 10:57:25</sys_created_on>
         <sys_id>2dc9d5b41be7265024da8510604bcb74</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>content</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_11c9d5b41be7265024da8510604bcb21_content_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:25</sys_updated_on>
         <url/>
@@ -2155,11 +2107,11 @@
         <sys_created_on>2025-08-21 10:57:25</sys_created_on>
         <sys_id>a5c9d5b41be7265024da8510604bcb70</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_11c9d5b41be7265024da8510604bcb21___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:25</sys_updated_on>
         <url/>
@@ -2178,11 +2130,11 @@
         <sys_created_on>2025-08-21 10:57:25</sys_created_on>
         <sys_id>adc9d5b41be7265024da8510604bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_11c9d5b41be7265024da8510604bcb21_description_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 10:57:25</sys_updated_on>
         <url/>

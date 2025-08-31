@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
-        <creator_source/>
         <description/>
         <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
         <label>ServiceNow AI Search Profile</label>
         <name>x_aenpl_servicenow_servicenow_ai_search_profile</name>
-        <publish_id>dbd12ba9-3a82-437c-abfc-8bf12b859ce8</publish_id>
+        <publish_id>3473529e-18c3-4801-a9ab-76dfb95935e7</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>

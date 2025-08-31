@@ -4,14 +4,12 @@
         <agent display_value="SNAI PII Remover Agent">bf661d341ba7265024da8510604bcba6</agent>
         <description>Update the Description of the incident based on the incident number</description>
         <display_output>true</display_output>
-        <document_status/>
         <execution_mode>copilot</execution_mode>
         <inputs>[{"name":"number","value":"","description":"Incident Number","mandatory":false,"invalidMessage":null},{"name":"description","value":"","description":"Incident Description","mandatory":false,"invalidMessage":null}]</inputs>
         <max_auto_executions>10</max_auto_executions>
         <name>Update Incident Description</name>
         <output_transformation_strategy>abstract_summary</output_transformation_strategy>
-        <post_processing_script/>
-        <pre_message/>
+        <run_as/>
         <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 13:11:22</sys_created_on>
@@ -19,7 +17,6 @@
         <sys_id>7f687db01baf265024da8510604bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Update Incident Description</sys_name>
-        <sys_overrides/>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
@@ -27,7 +24,5 @@
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 13:11:22</sys_updated_on>
         <tool display_value="Update Incident Description">3f687db01baf265024da8510604bcbb7</tool>
-        <tool_attributes>{}</tool_attributes>
-        <transformation_instructions/>
     </sn_aia_agent_tool_m2m>
 </record_update>

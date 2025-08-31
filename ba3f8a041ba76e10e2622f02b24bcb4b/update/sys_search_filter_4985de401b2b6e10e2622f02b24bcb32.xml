@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Supplier">88d1535f53812010339addeeff7b1233</ais_search_source>
+        <ais_search_source display_value="">88d1535f53812010339addeeff7b1233</ais_search_source>
         <label>Supplier</label>
         <name>Supplier</name>
         <order>400</order>

@@ -7,7 +7,6 @@
         <option_limit>10</option_limit>
         <order>10</order>
         <search_context_config display_value="ServiceNow AI Now Assist VA">c86bdec01b6b6e10e2622f02b24bcb49</search_context_config>
-        <sort_by>count</sort_by>
         <sys_class_name>sys_search_facet</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:48:38</sys_created_on>

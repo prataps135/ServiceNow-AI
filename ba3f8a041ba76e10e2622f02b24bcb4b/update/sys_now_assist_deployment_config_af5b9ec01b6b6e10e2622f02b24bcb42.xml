@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_now_assist_deployment_config">
     <sys_now_assist_deployment_config action="INSERT_OR_UPDATE">
-        <branding display_value="Now Assist in VA">be6976c3a37131108cc8270be51e619e</branding>
+        <branding display_value="">be6976c3a37131108cc8270be51e619e</branding>
         <context_profile display_value="ServiceNow AI Now Assist VA">675b9ec01b6b6e10e2622f02b24bcb3f</context_profile>
         <now_assist_deployment display_value="ServiceNow AI Now Assist VA">235b5ec01b6b6e10e2622f02b24bcbfd</now_assist_deployment>
         <sys_class_name>sys_now_assist_deployment_config</sys_class_name>
