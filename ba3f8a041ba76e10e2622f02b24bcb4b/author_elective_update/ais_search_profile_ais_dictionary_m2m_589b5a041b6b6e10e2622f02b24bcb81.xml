@@ -43,7 +43,7 @@
         <update_guid_history>d09b5a04816b6e1068e3c2a61cd03b83:145331408</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="sn_mab_api_mab_stop_word_dictionary.ServiceNow AI Now Assist VA Primary">18fbd6441b6b6e10e2622f02b24bcbac</sys_audit_delete>
+        <sys_audit_delete display_value="">18fbd6441b6b6e10e2622f02b24bcbac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:51:04</sys_created_on>

@@ -56,7 +56,7 @@
         <update_guid_history>15b264f46de7e2503c3e17c825f6e6e0:1073798919</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Update implementation plan to change request">ccb0f4f81babe25024da8510604bcb7f</sys_audit_delete>
+        <sys_audit_delete display_value="">ccb0f4f81babe25024da8510604bcb7f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 07:57:54</sys_created_on>

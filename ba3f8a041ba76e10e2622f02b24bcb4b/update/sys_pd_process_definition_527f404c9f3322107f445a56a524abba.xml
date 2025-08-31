@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A playbook for the recruitment process in a technology company for a role in the workflow automation engineering team.</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Recruitment Playbook with Generative AI</label>
+        <name>recruitment_playbook_with_generative_ai</name>
+        <now_assist_prompt>Create a playbook for recruitment process in a technology company for a role in workflow automation engineering team.
+
+I want to add a stage Recruiter reviews. With in this stage, I would like to add 2 activities in this stage - Recruiter reviews candidate resume, Assess qualifications of candidate.
+
+After that I would like to add another stage, Hiring manager reviews. I want to add 3 activities in this stage -Hiring manager reviews candidate resume, Proceed with rating candidates, Schedule a panel to test candidate on technical skills
+
+After that I would like to add another stage, Manager panel. I want to add 6 activities in this stage - Schedule a panel to test candidate on managerial skills, Cultural fitment evaluation, Schedule debrief, Hiring manager final decision, Go for approval to rollout offer, Send offer email to candidate</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>527f404c9f3322107f445a56a524abba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Playbook with Generative AI</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_527f404c9f3322107f445a56a524abba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:51</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=527f404c9f3322107f445a56a524abba^sys_idNOT IN788f8c4c9f3322107f445a56a524abcd,3c8f8c4c9f3322107f445a56a524abcd,308f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Stage where the recruiter reviews candidate qualifications</description>
+        <label>Recruiter Reviews</label>
+        <lane_condition/>
+        <name>recruiter_reviews</name>
+        <order>1</order>
+        <process_definition display_value="Recruitment Playbook with Generative AI">527f404c9f3322107f445a56a524abba</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>788f8c4c9f3322107f445a56a524abcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:48</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=788f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Stage where the hiring manager reviews candidate qualifications</description>
+        <label>Hiring Manager Reviews</label>
+        <lane_condition/>
+        <name>hiring_manager_reviews</name>
+        <order>2</order>
+        <process_definition display_value="Recruitment Playbook with Generative AI">527f404c9f3322107f445a56a524abba</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>3c8f8c4c9f3322107f445a56a524abcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:48</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=3c8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>3c8f8c4c9f3322107f445a56a524abcd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>95af808c9f3322107f445a56a524ab76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:48</sys_updated_on>
+        <value>788f8c4c9f3322107f445a56a524abcd</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Stage where the manager panel evaluates the candidate</description>
+        <label>Manager Panel</label>
+        <lane_condition/>
+        <name>manager_panel</name>
+        <order>3</order>
+        <process_definition display_value="Recruitment Playbook with Generative AI">527f404c9f3322107f445a56a524abba</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>308f8c4c9f3322107f445a56a524abce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:48</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=308f8c4c9f3322107f445a56a524abce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>308f8c4c9f3322107f445a56a524abce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>19af808c9f3322107f445a56a524ab77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:48</sys_updated_on>
+        <value>3c8f8c4c9f3322107f445a56a524abcd</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=527f404c9f3322107f445a56a524abba^sys_idNOT IN708f8c4c9f3322107f445a56a524abce,7c8f8c4c9f3322107f445a56a524abcd,b88f8c4c9f3322107f445a56a524abcd,b08f8c4c9f3322107f445a56a524abce,bc8f8c4c9f3322107f445a56a524abcd,f88f8c4c9f3322107f445a56a524abcd,f08f8c4c9f3322107f445a56a524abce,fc8f8c4c9f3322107f445a56a524abcd,348f8c4c9f3322107f445a56a524abce,748f8c4c9f3322107f445a56a524abce,b48f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=527f404c9f3322107f445a56a524abba"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=348f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=708f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=748f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=7c8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=b08f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=b48f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=b88f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=bc8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=f08f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=f88f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=fc8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=348f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=708f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=748f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=7c8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=b08f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=b48f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=b88f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=bc8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=f08f8c4c9f3322107f445a56a524abce"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=f88f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=fc8f8c4c9f3322107f445a56a524abcd"/>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A playbook for the recruitment process in a technology company for a role in the workflow automation engineering team.</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Recruitment Playbook with Generative AI</label>
+        <name>recruitment_playbook_with_generative_ai</name>
+        <now_assist_prompt>Create a playbook for recruitment process in a technology company for a role in workflow automation engineering team.
+
+I want to add a stage Recruiter reviews. With in this stage, I would like to add 2 activities in this stage - Recruiter reviews candidate resume, Assess qualifications of candidate.
+
+After that I would like to add another stage, Hiring manager reviews. I want to add 3 activities in this stage -Hiring manager reviews candidate resume, Proceed with rating candidates, Schedule a panel to test candidate on technical skills
+
+After that I would like to add another stage, Manager panel. I want to add 6 activities in this stage - Schedule a panel to test candidate on managerial skills, Cultural fitment evaluation, Schedule debrief, Hiring manager final decision, Go for approval to rollout offer, Send offer email to candidate</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:53:48</sys_created_on>
+        <sys_id>527f404c9f3322107f445a56a524abba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Playbook with Generative AI</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_527f404c9f3322107f445a56a524abba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:53:51</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+</record_update>

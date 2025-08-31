@@ -1,101 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
     <sn_aia_agent action="INSERT_OR_UPDATE">
-        <agent_type>internal</agent_type>
-        <applicability_script><![CDATA[/** 
- * Function to process inputs related to ServiceNow change request operations 
- * 
- * @param {Object} inputs - The input parameters object 
- * @param {string} inputs.objective - The purpose or goal of the operation 
- * @param {string} inputs.execution_plan_id - Unique identifier for the execution plan 
- * @param {Object} inputs.context - Context information about the ServiceNow change request 
- * @param {string} inputs.context.url - The URL of the change request in Service Operations Workspace 
- * @param {string} inputs.context.table - The ServiceNow table name (e.g., 'change_request') 
- * @param {string} inputs.context.record_sys_id - The sys ID of the record 
- * @param {string} inputs.context.route - The route type (e.g., 'record') 
- * @param {string} inputs.context.additional_context - Additional contextual information in JSON format 
- * @param {string} inputs.context.experience - The UI experience name (e.g., 'Service Operations Workspace') 
- * @param {string} inputs.context.number - The request number 
- * @param {string} inputs.context.portal - The portal ID 
- * 
- * @returns {boolean} Returns true/false 
- */
-(function(inputs) {
-    /** const { objective, execution_plan_id, context } = inputs; 
-    return context.table == 'incident' ; */
-    return false;
-})(inputs);]]></applicability_script>
-        <compiled_handbook>```markdown
-- **Step 1: Incident Record Acquisition**
-  - Begin by determining the incident number required to proceed.
-  - If the incident number is already available, use the 'SNAI Get Incident Description' tool to retrieve the incident description. Provide the incident number as input.
-  - If the incident number is not available, use the 'User Input' tool to prompt the user: "Please provide the incident number for which you want to remove PII."
-  - If the 'SNAI Get Incident Description' tool returns an error, missing data, or an unexpected result, use the 'User Output' tool to inform the user: "Unable to retrieve the incident description. Please verify the incident number and try again." Then, use the 'Finish' tool to conclude.
-
-- **Step 2: Incident Description Analysis**
-  - Once the incident description is obtained, use the 'Content Analysis' tool to thoroughly review the description for any Personally Identifiable Information (PII), HTML tags, and character escape tags.
-  - Input a detailed analysis prompt such as: "Analyze the following incident description for PII, HTML tags, and character escape tags. Identify all elements that need to be removed or replaced."
-  - If the analysis reveals that the description is empty, contains no PII, or is already sanitized, use the 'User Output' tool to inform the user: "No PII or formatting issues detected in the incident description." Then, use the 'Finish' tool to conclude.
-
-- **Step 3: Description Rewriting and Sanitization**
-  - Use the 'Content Analysis' tool to rewrite the incident description, replacing all detected PII values with "[PII Removed]", and removing any HTML tags and character escape tags.
-  - Input a prompt such as: "Rewrite the incident description, replacing all PII values with '[PII Removed]', and remove all HTML and character escape tags. Provide the sanitized description."
-  - Save the rewritten description as `${incident_no_pii}` for use in the next step.
-  - If the rewriting process fails or the output is not as expected, use the 'User Output' tool to inform the user: "Unable to sanitize the incident description. Please review the content and try again." Then, use the 'Finish' tool to conclude.
-
-- **Step 4: Update Incident Description**
-  - Use the 'Update Incident Description' tool to update the incident record with the sanitized description.
-  - Provide the incident number and `${incident_no_pii}` as inputs.
-  - If the update is successful, proceed to the next step.
-  - If the update fails or returns an error, use the 'User Output' tool to inform the user: "Failed to update the incident description. Please check the incident number and try again." Then, use the 'Finish' tool to conclude.
-
-- **Step 5: User Communication (Optional)**
-  - If the user requests confirmation or status, use the 'User Output' tool to display a message such as: "The incident description has been sanitized and updated successfully."
-  - Do not use the 'User Output' tool for any other purpose unless explicitly required by the user or necessary for user understanding.
-
-- **Step 6: Finish**
-  - Once the incident description has been successfully updated and all steps are complete, use the 'Finish' tool to conclude the execution.
-
----
-
-### Tool Usage Scenarios
-
-- **SNAI Get Incident Description**
-  - Use this tool whenever you need to retrieve the description of an incident using its incident number.
-  - Input: `incident_number` (string, optional but required for correct operation).
-  - Expected Output: The incident description text.
-  - Failure Scenario: If the tool fails or returns no data, inform the user and finish.
-
-- **Update Incident Description**
-  - Use this tool to update the description of an incident after sanitization.
-  - Inputs: `number` (incident number), `description` (sanitized incident description).
-  - Expected Output: Confirmation of update.
-  - Failure Scenario: If the update fails, inform the user and finish.
-
-- **Content Analysis**
-  - Use this tool for any analysis, synthesis, or rewriting tasks, such as identifying PII, removing HTML/escape tags, and rewriting the description.
-  - Input: A detailed analysis or rewriting prompt.
-  - Expected Output: Analysis results or rewritten content.
-  - Failure Scenario: If the tool fails or produces unexpected output, inform the user and finish.
-
-- **User Input**
-  - Use this tool to collect required information from the user, such as the incident number if not already available.
-  - Input: A prompt message requesting the needed information.
-  - Expected Output: User-provided input.
-  - Failure Scenario: If the user does not provide input, inform the user and finish.
-
-- **User Output**
-  - Use this tool to display information to the user, such as error messages, status updates, or confirmations.
-  - Inputs: `message` (information to display), `references` (optional citations).
-  - Expected Output: Information displayed to the user.
-  - Failure Scenario: Not applicable; only use for display purposes.
-
-- **Finish**
-  - Use this tool to conclude the mission once all steps are complete or if an unrecoverable error occurs.
-  - No input required.
-  - Always use as a dedicated, final step.
-```</compiled_handbook>
         <description>Removes any PII from a Description of an incident</description>
-        <external_agent_configuration/>
         <instructions>Step 1: Get the Incident record  
 Step 2: Review the incident description for any PII values. 
 Step 3: Rewrite the incident description and replace the PII values with "[PII 
@@ -103,8 +8,6 @@ Removed]". Remove any HTML tags. Remove any character escape tags. Save this rew
 Step 4: Update the incident description with ${incident_no_pii}</instructions>
         <internal_name>global.x_aenpl_servicenow.SNAI PII Remover Agent</internal_name>
         <name>SNAI PII Remover Agent</name>
-        <parent/>
-        <processing_message/>
         <proficiency>- Expertly identifies and redacts Personally Identifiable Information (PII) from incident descriptions, replacing detected PII with the standardized placeholder '[PII Removed]'. This includes a thorough review of text to ensure no PII remains, supporting privacy and regulatory compliance in incident records.
 - Can retrieve the description of any incident record by specifying the incident number, enabling targeted review and processing of incident text for PII detection and redaction.
 - Can update the description of an incident record with a sanitized version that has all PII removed, ensuring that the incident record reflects the redacted information and maintains privacy standards.
@@ -112,7 +15,7 @@ Step 4: Update the incident description with ${incident_no_pii}</instructions>
         <record_type>custom</record_type>
         <role>You are an Agent that is an expert at reviewing text for Personally 
 Identifiable Information (PII) and replacing it with a placeholder "[PII Removed]".</role>
-        <source_id/>
+        <run_as/>
         <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
         <sys_class_name>sn_aia_agent</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>

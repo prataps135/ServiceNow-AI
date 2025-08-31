@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A process for recruiting candidates involving recruiters and hiring managers.</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Recruitment Playbook with Generative AI using image</label>
+        <name>recruitment_playbook_with_generative_ai_using_image</name>
+        <now_assist_prompt>These 2 stages, Recruiter and Hiring manager, should be created in sequential order.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:57:05</sys_created_on>
+        <sys_id>aa40588c9f3322107f445a56a524abc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Playbook with Generative AI using image</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_aa40588c9f3322107f445a56a524abc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:08</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>playbook generation test image.png</file_name>
+        <hash>03ecadb4987fc2ccdc08dfa94cded69d8fd5e7fd47639cd52fcb741184bd6774</hash>
+        <image_height>467</image_height>
+        <image_width>752</image_width>
+        <size_bytes>8132</size_bytes>
+        <size_compressed>7540</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:56:32</sys_created_on>
+        <sys_id>dd40d88c9f3322107f445a56a524ab51</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:06</sys_updated_on>
+        <table_name>ZZ_YYsys_pd_process_definition</table_name>
+        <table_sys_id>aa40588c9f3322107f445a56a524abc2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="playbook generation test image.png" sys_id="dd40d88c9f3322107f445a56a524ab51">dd40d88c9f3322107f445a56a524ab51</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:56:32</sys_created_on>
+        <sys_id>1140d88c9f3322107f445a56a524ab52</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>zXl3UFNt9GboIZTQeweRjlRRIpEmoCACoiJKRJp0AYUAgYQmRYqg0ot08BNRkR5ICAgiVaoSSiJNUOACAgFisny/3+zsH7s7szO7s7tn7rxzz3nOe85zn5l3zrxzk69dteCCiEFAIBCXlaWZPQjECIBADONgppNIaM2szYlz2dvU9Jq3mxsIhJyJGtW6YmIn0ruNcwLLKtjx8i3J2IjdT6jz4Y2Jv2XcdLe+KsYFOi3OqwueDJgYE2r6wx6svC4uwsxtR56RaH0xmz5nzLse0324jQ8/hz1Duh7/GcrIMjTKr8o7ciOYuIjsGzbQuLSt4mMVv7gtgnl8UD2JZwWWtgZVpOcmqwv6xy99jqLcDlnYRT8Zz8uCoJiMHX+yfmO8iFrgkcyJ0bobfflIYu3Nsm+FQ3Zg5tRZPrs1C3zlyouPj/iByogjvwyOwwuCqvr4vK/60zHs91JEBt6QXZNlZKnM7Dwx8PlBemeyvdlDzLCGU7AIEizPs9RvWV9Wqv3U9vbwc6/Shl80ydD2+4JC8C6XtdBajpoi/FJI864L4bPW7ERCmSpG0Nn33Ucd4Y+/U/GjBd7Rg5hFzhnBcerrfM9jyG9N4NVf0FWi+9eo5V9cJ+LGX7O+bk6n03EnVi5G/y4uKipqZSIWEyQWExNjZWUVGySWnp6urq7u7Oz86dOn9o4G0lr7tWvXJCUl5eXlY2Njk5KSlJSUHB0dS0pKWrDVFdWFM2RcQ+Pr3oGPDa15EdE+EWifS5bwhtbcjp6yLcqX3oHGiIiI8vJye3v70dHR5ubmlZWV4eFhXXsXWRBIstLKzPg6cub3N7t04hnOeHLr4ODIccm7GvG3kn7Ob85exLCsRCax25W5/LyY/fq/twBxx7+WrPhyw8Gf5gz4qJD1Dms+00emsCyJOZ2pxHfHNzoyMysY5i49yqiDuiqwH0kjttzfJr7oEZVUNPqRynclY3vpsxXk6kqSW8aLxaBvQNZLxn7YWdTngG0svXGWtWDBfeFlRB2Z6Umh1+9MSxB7yW73Z5BZXNcz0l3UFHtDEAhAiM1znxFr+KUfLaCTqXuv25JV/J91xRAjE30JNW8FV7moAORQuY5sFua7h+yx+PAtlNFYbmZT/9DwHKW1ok7ySn3KuvPgYE/OE87W+W78TxwX7h/smr/1h276A4rNcW0WKfWUjiG4vWWhbW+m0V2BK28BaDz7vnMKaFjrcl4dAYb/fno7p9GcHOcqEnqxZrtkTv4W+reQScEuHCcY24y5YOpv8aF0JGpI9/M19+hZV/cf4YDdHPfp7wJBhqnlrh/Ob35shEF1t18aYiuJ7WcpKyqUrmDg8Zzu9sQvEtEbYHIehqqisvpMez+1z+XF1bMG7qqxBJoj2BAjsdKnG8aOGUaAIPjTjcXu15x+feVdGa4L4tg5wN/vpnaKRe845jiuOaW3ybNrchd3bY4HJdkbxir9Pb6x6N5N7fzhMcBCddY7Osz/aNl0vPfd4uejdehm/swm0L1bsK9CMaC9C+8lbcQnkBKbwRa/bx815AcIPGlUz8o/z93SvUgmJZrbTIR2R4jYFENZbdy6+kKM1n+REp/HOQGhBBPA1as6L9Xr+WSogdSiMzvyInG46W+1qfhMzFq6frqioR+sZPPH76CDP1H1fRu/N1aeD4Vtf2IE/c+NdANOb/sKvRdnpBlHP9gqQNG3+b8Vjvwi0dv7D0Yk351jhir////kxaIj0+Zi4YvBCxp1+5dvRrSGx6JD6t9HDp494NsqaB0LbGchrss4A5O7F6SovhoHUTo320SoTec/C6IcjRaEYw+WxwU3o+RvrufELdxgY7YFnoKLSfwylDvg6DpRXpQQM24qFWzEEYvwvcRcwtJVrycfOxJLms7n7fIyBnyHkkgNMpRGTzPAiYd6W0eOovY/2mYeS8o4HWubRgqx4qXGkBzkKXfs1byvssXapp6EeKjf98BGkrEjp4wBOud/vCVU6/5HaUte6iHPje1Vna5qU6BVwalbuj2j7g2ZX45yZwyWCA/tKmE3ynvTJWyOU9Zs2WFI6ZIGGzW+6brZWYIrzGdDCCynCcSFrfJQyT1ZikU5bFsD4uys0ilhp1cpo/mjz2MP5g1XFzluhk8nSLGaWxr4ffmAfm+tRQEUaMil9+6XRyDzG936WE7iB47OVCIZR1GhOVeJUM/RYDyo8yOQzpSOJ0E4eRU15M1vGSyxXdLHE7aoBzar4V19xt9YNeYni44FUYkkzTh4CfcqCe+QH18siMWBO2dGtgBctTC1fy9dzXusXwwb5nHNcU6Ju/dUmqoijl1/Wq6DdGiEYhWNy0iO3Gpv6vgnxaCG0LQeK93k6vVVem9Zu4t0uHMrIi/2rLnjxgD+uGxma4D+/Vy5xCdXmaTLjpOnDvkaXnXQJcOIV8G/TXJF8w+TS0DN40244mduff1KYsSsBx2dE2IHykLz+hRQzAh+PKEyJ4FOiaL9HHTMN5lXo6YMMUISoI1gwIixhK8FHDi/6EG2XUVUD896qy+9IpjOGpO8Hv5O06vWdaDkIDOAbPexpgh+97stCkwVR58qs4L8fOsWY6di3uYSpJ0ojCnVujFqMn/qJy0LUtUSKodaqkhTMg47L4ELCtrSK5c+qQzBxm8P2yV4KZ0p9ES2/BLZsSfdvujcKjZMQVA+f/tx6Xve1Dj2pPU7wvNs0cubHNDHD1WxDQOS5CK7SkB1t8dBmU2omPtJHoynuMiXnFM7kMEOL6msXflMsFAbDiA4KMqe6c9tJqyuvgVcdsQ9CCWrcJTsFr+UoTKq3LcWcGnGyDO9IWTEC5HrrGnyWL8FiG1C30XGsyoBtzNoalx+TCgTQHWCI5Btv1m22wzQIrQnWBwPJMkx6bpEi8UU3FD/R/7sjFf0o9uJ+J9Im7mnuentauyNQtoHa23bz19wQBunGDPiExMBP/Q3w+nlXn8RyJYE6ZV8f7FV2AzNdyqCnuOnzBfr3SfcP9abnJAHFMe/M4p8IGH/uiCAiZ4S6X0knNFtKr/PEvj0jditZhONbz/w4vKJhTZxosj6bl8tiDhADOi/P5qFuZwyEP2q1jNgJytEgP5TRW45Vh2KzS7UsNFe9hDTt85VVNotX2p5Fele28SAm5M2crKU8IMQ08DMyoasRvOi15LeZz5tMgC0R9WrZyqTggpPqTMXld6I/Mgg3XMQRSc0z8RlzSTtFu7eucDUac+rSdzBc7w0eOp3rKtCssHW7oBPiEzFdr3CzNQwnP9C6sP7flhgQ+UWeedQwUiBcNzOg+OxNn+pEFWOhRd9Ea2sxQyomiScJPJ9O0b6mbTP5ldWqoVdfmBThXd7KAQoy46+LKnNGFiNL9DgpG5u5mWtzlQ6NjwiCNauSKm3nSTN6YQ8ZAP+kvP2x2RSoAwLj+cC4MpqyW8Y7IM38dXBDEY98PtCwK6Xj2757kbIxCUJpJ4B8PFHvCzs8ndt/FbbW+LCAMPDykBG9oHEU17z1i/73ylstfEA/jkX2ziQ3tSZe89AFwJ7BmpHPOBb5rsGgNb4fq+1XdUTyzKyZb9felHNBT61P+zSW6MF+PGlMmVm7GUCP2P9o8xgZV8pJqM34m+iaB26/jm8RyoFfT8SirhgakzoR41c9t/zLah/OrYWVou8HcVvNoIUgpPQD1bUTlscWkGx4xzzK/3uJOJbzJ/fePpPVBWCiYJ0rQdJB2vyPNYcjcmQKhNL0IuhH/BE9nkyjZTBVRy491waJzL5Lm+GWiRPsNr8LVvZ7oJdXkNPmS6Mx2hOGRmeMNdkoGa8DVnSZMpAlVqd+ktYvafcmPQJEpMtVZrFI5ER3Wk6yw3LQ796Jgc/D0QHv/9jUgAOOeN4Rys18oH5hNkQTrHMYObq+7ur+/vn8PTv895FxM3nGHTBIYEWwovU9rotwIADOF0NmDKSVF/aKVoKOvNSaB0lHLC8VkfkLRF7Juh2DzMMkpGpxVMmIo9eQgaw6kImYrZWvo/YMnYW+AWWMFFHAor/RrEjVzHVhDPKekAZa216XI2IhyNpwXHVaML6+7XFV2Wtg2EMyPEumc3HH0d7bcO4op7FQ36mNzm8CfGF+1rtmnue3+M3wtCvhB9m8EWnie6I2PiQikTMnfrfpfb64A+WSz1DcnQ/Xp4ATWow2rK7ochDLPb3dSxDnWR93A0icBvNetQiz6M+rPB+xAtWHwbUCkM1PvHMG7DIFLORlE/oTy/GQA37NtG7M4ZMLqdSb7RWCjV37ily68lJdCyELr+GRd3aSdzdNSdkbRNc2FxE8FBmkhspxM5UZDj32xf8wdG1F70CGGMwb/BP0AhGmC9aoJoSMH+/QoA0CTL1jvUxOL8X8qAZTTOgzh+Gu1fVfOH3KzLAlphXThLeIR7pCZCMp2PvimjcD224L0F7iESXhFW9BCZqZi7WvE578bo0Nann2NQnacFSWckiUdz+R0xJMn7L528wa30IGwugOqL7Jls9eQ8DdaWcB5TKHmkI106LB3Mp18e70ht/wpsrfwCJiAW/5grEy3MiWqfSZt/5ximCcAd5RpyoXQbgjgTl7nTj8eoyyaOZrbndN5KHobZx1i1PBJI6dE6VpVClt/GFhL63b8xuiDgSNFlxXyPlYbzWZ3C9Ggs1etpIh+3AzNtlUzm6qkKrSapNQ+ny2MVTZF6dxhfiiYy1aq63IqyTqz6WCT+peyc9T09caRVxYPgk/uknmF2aWWWt+iG8KYcIXfhnnYyeRax16jrtc5Dubpo/Xridk6HOfL9Kaupse6Vcj2uzI2ZakWeI+/qqYzfvEntbosgsnpV6L9H0/MTro7kpIOcM5PFZTKLYPZXsPscMMH/DA5kQ09exQv4KoLccsEdqsoqIcCZzjZtxD0APxIFF9VORf/c2poBxjJc2uAbGVDxPuv29xUJjpkbhexIRgm/3YXPYkQNolXqsh0tNthS/meql4yjvIlbUn69XMats+LgsFUdnj39A9XKdF5aFAK0HArAmPZTfk629xoBxrWK2ScZRO3jsVqpWEDdWazIj5qalxz9vyEMOHKTugkXtjAu6cxiow2ROu02icp2ZR6pEnPh9tWAZLqalymhu7NgDBtTvg1Bn1cvlyo2KGOmOZG27cCWTrBQvRqlGbewn8jRzJzg8RW6ryxlm04rcfRaufQNzice/lYWvSRfYhqOG8e+TRLnSkM61q2JLeZhq89nPLQw4FaDU5q1XPfVifIFQ6RyINvU2iYvCRbHwjyL5un7juA8mMYi4PRP7ksRPxKBFyj2Zou+SSi+bWNPdtoazJp6UnoHEVfWqfh5V/elOP74S82w59oxA/8v6w5FwBvGwHOnO9WDn7Nzg8wGTX9fPv54TOuqvThMxvaA0As9cNMccDFtKURn9XdJvrBrp1XSObLyifaNu1N9hxd68tEMSHni4FM59p+SvxPHizmqcGGW8Zq8OwYmsTwXB0YnfXwRgbAVRhg/ONTxOQUMBF1GGTk2rghzSwB6C8uyoc3G/CLT1MhNGsb8P27XhACptXO5yPs6Z2G+EBqZfYphXlWcjmSZDG5ik1ykBHcrjeMR8Zf9e8t+mwGLnZ5RqQUCz0ASVux1FEW8Y0MiW7si3nNKvZ4KRAv9IIFsT+0CBmXqUa5oJV9i19qf5CIfdD2fYkHjoFzGUinJibrXy9PsB/YvfFduvVtcxIvEZ/RKo4urYQsRxVruH1FtmGInNg7tzWA4qW/EBS5Y8PusczAWlBKUxlGQktH0V/qnOAmAy3MSZOtX0V1giGKCUsyxoqbh6AtF9us2pnqxDYoCrRQLv6+JuJOqaOie/sflgw38SU3QDouT8o8YR2SWTzVBGGIluCoN5CpI6tBmxVpiDL2BA8d8Pxxcw/ytiIN//PcA3BlE53VU/5qrjFSFMbZIASQFQRhST7cdWkK09Q3EFI8yKBZkFARQESVYq+OfXMadr//eAdTHqQYnt3uGx8NeVozZG+uJua2cUr7+mhrel8lvy/5ke/8uAaMxC/fjm1a2gtuOB2eLacT/81vj5DZdf8nX/CnL0PrJgEL+63cEdXTR+wW/FmoHOg0pfPGYDTnFrVnRfGv54opYWzXV1PtghsVSJ8wox0l85Tiaoh7qK9DEUNnuAGX95up5emjthHk0RaNX4Y8tO1Yqhq8TgFGOEkSaMaGsS7jKpvtYCaMA38CNvo4BxJeA3My0Xj36JRzgkkrYciq8wjlwhhW9vAfN8SBdGunbRGKoYj3iO54DJxqx+YoO3ZRyEC5wgtk+h0fu1EhMPoLbWJO/tLtvWYusVJ5I3O0yLdg7FsvWfZbqOqUzRgzNjAB/yPhUOC7dCI+UUgUFKX1Yz0aYva5CZlvOIm+7NiLaRjC3Zzcc38P3LqrmwWnkVtqwGVDAXi9C5EdLYQmsI7HSMVx8ajireciJZscMMjZDCJzRGnqIvL4ZLWIyExVSfArAUUuC5yOIvF3Efs/go02sStEVmWn4bM/yXTt0Sc7GwNHb6z4rWfUbbVDQ3YkH2jS2Mlx/pSXWzivqxdqD29+Z03FlDp99BVXn4QJJX1A9vBtfEvIC141skJkzltOzMC2QhLVj24qE2mGr/1mK7Y4EsLrSrA2QapTJLiXAasAV2n6OE8o5mrxxyuTPi4s5e+VXuHPVxzkGypI8hMIA4yp1xq3pzmskDePR+OO7CX+Qq6TE3HWTE6H+al9vMeJU7w/3hK5eo44gKQ1TklFDsC06GF74r3DJNjwuYXITvnA6AL1myb4IN7v36Ik/4qkd5P3GsPMSEbG7S23cNt1dXd2Dc6w9XAMiuv4rm5Z2crxFfxW+RiHtRy6d2r/cdS86PuqicedRRmTe3a9tR0g3HWIjnbkVS/oqDdSIPYhWAftIn/UHOBxzaiKl4QWrbqNKiCi5ef76r+WX54HokFO7h7z3c5WzwLrrb7sMjsa1bHyCPQSL6wD5zp7rk+zrshbu9hsh6VWHkXzTlLCnmBa0xLHRg6IelCK1pbZPr6p1GuIVzO600WNfwAI12+yPHnmig/x5fUn5QK5B0qfhRVbErszpZkX1r6HEKGGpWXnrzLaA4Hd/HpgRL2Aq6Fc97XqwFLvC7HOj8AARYblgjR+jL4Vd1Peb5iU7ImxBpA6kD3MKSVua32y5Iks9blZr9FoicECw4sDHsCzbn8802b0G9hhdJp8mZr0+Rg2bvL3hJnflYDsjeH5YdOiaDO9WxuXNLdH/orti9zjLgYoV/6TPLp5+VZVYj/TwEyZm8fOxc7BuFPB/M+3guPQFtUEtftFrOERaOJaTKY1KHWh7Yehdc+i1LYFK6jmEkaGarJ+BMKbpN1suf3/H7JbIOn95IDHmeFn/Vs0Y+5RrFN6lAN6cUKGHHwVk3+V0EHC/CVS3yCxrXW6IufxrovYB6ldFrMVdVKitGY/d3q/I8EiETq0Cq7IEIxStkTZQsISgMNquKiryRbjbxkB9ca2Pyxs6icfRqgS7RNMgh+5dhCj/vcCLiCSQBhzaCxQs/uKBh0atq0Jar66m0X6s7k6g7FK4N7WgAnvDzQnCcexD0702BTivCarCCxtcuDzB8gnPo0ztRo0A+fXlyEaHeOIEQ9hdFCag3TwgrFI2/yTl+ytF/dlAsTEfidc09h6uUjXEw7uRijstRRJ0mkDsKgW9Lxi0EV9FJzo0JcAErze0kp3m6+TQvbeOxKfmmgNTsbgL4h48ThXX5M79YQuLqmrLNzwou/UOsr4CLzaYQba9nxSXNfTbbk5WHNmW90BTmpXL2Tykgv8lL6/ne/cjPTow5luuHQdrQEuwHnyHamTKkatZ2Rf651VozBjDXKcosYk+A/m5cra7zjuLy2xTs9IbbfclXHRSkRVTp30QGQdBrVXvvfh26EgJduvZfAxp8zOxGlgZmBkpy7zdqn/se9bDIULHWCxpe5/++tDTcCg4NCjTIpItB6A3VbIGRyTJjOQQOlTYf9c1CPQ1x/6EzFcY5LsrQIoW3PBtQjTMOSCDUjoItnHqlHt0erzspC+Mz0TTuiDCQ3L9ELjnR4hxWkbb3EphZ8Qx8n5qTbIIUh3tL3k/rIbGY0c/Bx5WozF9bgkbccmFo6cc+v7nEIs9LnjSHpvd5heet/zqg9OW4VAkJGXQv3zKgteAte3jEU3oREITGOEXVTXXtHw3ZwN2PO5NlwKEu7WTb+aj8gqkNCRf5AhxC2GV2JlQBRtg3Rk43OfbYf6XwlWkSid/ujOje7Wxovr/udWrjzqd0QvV4Gdb77/bTljigRRirAdN4yk/es0Y+0u6RmTglQx3S+/CncMWXPPf1spZ0zsc5ex0Oze1xLAG+KEITzi3/ujLjZrX3INmdzCsELvHUiUx3tQ7KdCKcXqhnh7t8UIlbdkIqKPx83AkSRnMlaMpgkQ6xO4RAtuSIAOTlRZ+p20JGzMPFYy3yK2NXvPie9gpjgE/aQ7gxBamCLy0VafE7+XF3trlljSpF0fwHYQswfWUzuazwXCDw3U/fNMzSusZM7aCqNPFbdYYAkjvD+izxxdqkGkO+t+Y4T9O53loWFqEgrw7z/JimvA+dQIe5rVa4H9HrS7/biHbOpY9BOcZIazpX2nW2P488eP+YHVwaNf4RNLPI1IqQSByWHPMr9ogAPLvXukYUsMv2JW35r+zHLRIjXqm2lVWXtZebHrX0IHFnrTxMMzJoLSB3USXqHfIp3AcdMwfvMQmvBmBxmnj1fAWjFzilNO7XK8MEBCsEfhPpJ4OtiOsfuBB0Q+B+uefa9qLBfsP0uWjkuPq/CbgUoMZJkRzkxxONpbwkaNqcHMnI0ce/2DN4rwhJnW4Agr6ZknOqTMhQi8nF9/TvOUJSpn9qgS43Ozha+i1XZHKDkDJ157oSKkxivc5wA8KRAVm4jhz02WmQTfM2FNAjYil7vISniKSzOreckdKnfgrQsmtZ+sZH7pDr5RlrTydZpzt0uws4IZAdPNkLt5BYCancaxTn+K0UDujsyoNg47o+SOBOO4IsuNyZDFwiVxN+dUZu7T+9Q17kOArsHbxL9PQgz90lXFWASMt9c5PKRnI/ffX+NWAZksWU7ngEaru1ubSezgSB69N6SrvvddYAyHK6BDBMe5kw3aQn/hrL4wJMCNheKdj/KBj/1WHiKhfCEbk0veKnLly9uMG9o5dc1POGfiCdVQnIh7aXnJWmhZLNd4cv/K6z8TXuOyB6vudgFFbWpB5a2ma6fPnERh7J3pHNzl6yR0bzH2CcqAu4ApbMydm7y9h4TBRtBtuY0PztISUq+2kqcbVocHZOCXUfjcrWq1tOYIuVNSYyNZjuhpDNpeVgS5/evZZk3+In2wwb1jaejidAHx3JI3oe/QPgBYOXzt8aMUOiSYLRVC7iyUQ7KXX4oirWfFYnXvoXLMKtmVP2txnbqrWUHBW5V+dF5r0k0xhy2t8kjkCnms+GBNwe+sjFJC7ZEW8qKDsRY07ijjAyQSrECfQSBpRkPGfyXz137Vf9cIPbm29mUh2W0hYOtQcTJTrTdgir7opk6MaaC0XCaLxWKlJFqNOgEHYjdYewxY0h5MQR0Nwl3QucCYgn6/FbV+FzDVjrlwThan2y4Qb3yK62IwRROBO/+syTVwml9YVj4bFAp64ATU4NNsea8O9YQd+EIMQgiPQdgvReC9yYPGBMxv3IW5DCiglEi6oIFNt6fzElV1+jOF2jeNTYIIWKhWIItuEtwL2DTuJGy4/aMwI0HYOKPIb/7N+W/rwvxZTMYeeCdFwW6TQQ6ASfyNx3IVHXoxRwUKKqKVG1ryEhCBAEnkAYiSVoMiVUAyyvgAQlTeo2M2Lc7oRK0gkVbrbOqnIDAVrILe8O0ZO5JlBMEMYQbEuBhlfAwEWyMopBiSoAgXP8Nyg8mOwRtcnrcqNvb9lKWw+CvkuxeJgIQMnL3tqVwHQ8OpxzQZC2LEs99tb+S6yX7r5A4N95dA1pLyhQfJ0l4bSjMdnK8f+Va51AH6EH/MChqVafx7fZ4qW3T8vCc+l0uXgeE7Dsf10+j1FZtDMYmj8fcyf8+xvMyvyq2VuTe7H/Bf6pGDDEHwAA</data>
+        <length>10040</length>
+        <position>1</position>
+        <sys_attachment display_value="playbook generation test image.png" sys_id="dd40d88c9f3322107f445a56a524ab51">dd40d88c9f3322107f445a56a524ab51</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:56:32</sys_created_on>
+        <sys_id>9140d88c9f3322107f445a56a524ab52</sys_id>
+    </sys_attachment_doc>
+    <sys_pd_lane action="delete_multiple" query="process_definition=aa40588c9f3322107f445a56a524abc2^sys_idNOT INa05054cc9f3322107f445a56a524ab6e,e45054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for recruiter activities.</description>
+        <label>Recruiter</label>
+        <lane_condition/>
+        <name>recruiter</name>
+        <order>1</order>
+        <process_definition display_value="Recruitment Playbook with Generative AI using image">aa40588c9f3322107f445a56a524abc2</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:57:06</sys_created_on>
+        <sys_id>a05054cc9f3322107f445a56a524ab6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:06</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=a05054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description>Lane for hiring manager activities.</description>
+        <label>Hiring manager</label>
+        <lane_condition/>
+        <name>hiring_manager</name>
+        <order>2</order>
+        <process_definition display_value="Recruitment Playbook with Generative AI using image">aa40588c9f3322107f445a56a524abc2</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:57:06</sys_created_on>
+        <sys_id>e45054cc9f3322107f445a56a524ab6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:06</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=e45054cc9f3322107f445a56a524ab6e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>e45054cc9f3322107f445a56a524ab6e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:57:06</sys_created_on>
+        <sys_id>e960d4cc9f3322107f445a56a524ab4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:06</sys_updated_on>
+        <value>a05054cc9f3322107f445a56a524ab6e</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=aa40588c9f3322107f445a56a524abc2^sys_idNOT IN285054cc9f3322107f445a56a524ab6e,e05054cc9f3322107f445a56a524ab6e,245054cc9f3322107f445a56a524ab6e,685054cc9f3322107f445a56a524ab6e,645054cc9f3322107f445a56a524ab6e,a85054cc9f3322107f445a56a524ab6e,a45054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=aa40588c9f3322107f445a56a524abc2"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=245054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=285054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=645054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=685054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=a45054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=a85054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=e05054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=245054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=285054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=645054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=685054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=a45054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=a85054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=e05054cc9f3322107f445a56a524ab6e"/>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description>A process for recruiting candidates involving recruiters and hiring managers.</description>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>Recruitment Playbook with Generative AI using image</label>
+        <name>recruitment_playbook_with_generative_ai_using_image</name>
+        <now_assist_prompt>These 2 stages, Recruiter and Hiring manager, should be created in sequential order.</now_assist_prompt>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot/>
+        <start_non_blocking>true</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-31 07:57:05</sys_created_on>
+        <sys_id>aa40588c9f3322107f445a56a524abc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recruitment Playbook with Generative AI using image</sys_name>
+        <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
+        <sys_update_name>sys_pd_process_definition_aa40588c9f3322107f445a56a524abc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-31 07:57:08</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+</record_update>

@@ -44,7 +44,7 @@
         <update_guid_history>189b5a043e6b6e108fe42cface9d3b6e:-806558240</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ServiceNow AI Now Assist VA Primary.Now Assist Multi-Turn Catalog Ordering">dcfbd6441b6b6e10e2622f02b24bcb77</sys_audit_delete>
+        <sys_audit_delete display_value="">dcfbd6441b6b6e10e2622f02b24bcb77</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:51:04</sys_created_on>

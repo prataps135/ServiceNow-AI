@@ -4,14 +4,12 @@
         <agent display_value="SNAI Vegas Expert Agent">d0f9f5381baf265024da8510604bcbeb</agent>
         <description>This Tool gathers the details of the incident record, given the incident Number</description>
         <display_output>false</display_output>
-        <document_status/>
         <execution_mode>autopilot</execution_mode>
         <inputs>[]</inputs>
         <max_auto_executions>10</max_auto_executions>
         <name>SNAI Get Incident Details</name>
         <output_transformation_strategy>none</output_transformation_strategy>
-        <post_processing_script/>
-        <pre_message/>
+        <run_as/>
         <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-22 07:39:20</sys_created_on>
@@ -19,15 +17,12 @@
         <sys_id>7d06b1811be7e65024da8510604bcb79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SNAI Get Incident Details</sys_name>
-        <sys_overrides/>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_7d06b1811be7e65024da8510604bcb79</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-22 07:39:20</sys_updated_on>
-        <tool display_value="Get Incident Details">aad532cf1bb2e29024da8510604bcbba</tool>
-        <tool_attributes>{}</tool_attributes>
-        <transformation_instructions/>
+        <tool display_value="">aad532cf1bb2e29024da8510604bcbba</tool>
     </sn_aia_agent_tool_m2m>
 </record_update>

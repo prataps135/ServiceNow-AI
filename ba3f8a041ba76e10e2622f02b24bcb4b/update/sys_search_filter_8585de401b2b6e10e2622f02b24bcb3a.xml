@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Web Applications">f878b73c979d5210b06873f6f053afa3</ais_search_source>
+        <ais_search_source display_value="">f878b73c979d5210b06873f6f053afa3</ais_search_source>
         <label>Web Application</label>
         <name>Web Applications</name>
         <order>700</order>

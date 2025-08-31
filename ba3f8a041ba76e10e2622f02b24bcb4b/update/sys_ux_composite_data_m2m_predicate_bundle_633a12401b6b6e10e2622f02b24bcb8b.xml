@@ -2,7 +2,7 @@
     <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
         <dataset display_value="ServiceNow AI Portal Search">9a46d6041b2b6e10e2622f02b24bcb5f</dataset>
         <order>400</order>
-        <predicate_bundle display_value="Content Search Bundle">4dca13baff742110277ba36cf43bf111</predicate_bundle>
+        <predicate_bundle display_value="">4dca13baff742110277ba36cf43bf111</predicate_bundle>
         <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:43:48</sys_created_on>

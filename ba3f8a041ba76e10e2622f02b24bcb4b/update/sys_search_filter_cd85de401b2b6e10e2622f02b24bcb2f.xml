@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="Rich Content">4e21018eff11a110277ba36cf43bf1fc</ais_search_source>
+        <ais_search_source display_value="">4e21018eff11a110277ba36cf43bf1fc</ais_search_source>
         <label>Portal Content</label>
         <name>Rich Content</name>
         <order>300</order>
