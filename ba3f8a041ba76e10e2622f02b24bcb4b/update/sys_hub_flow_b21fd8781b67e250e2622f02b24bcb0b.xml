@@ -36,17 +36,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b21fd8781b67e250e2622f02b24bcb0b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Change Request - Use case: SNAI Generate change request plans with notes - fe1fd8781b67e250e2622f02b24bcb09</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
         <sys_update_name>sys_hub_flow_b21fd8781b67e250e2622f02b24bcb0b</sys_update_name>
-        <sys_updated_by>Pratap.S</sys_updated_by>
-        <sys_updated_on>2025-08-21 07:59:57</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:31:24</sys_updated_on>
         <type>flow</type>
-        <updation_source/>
         <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b21fd8781b67e250e2622f02b24bcb0b"/>
@@ -195,6 +194,29 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1b1fd8781b67e250e2622f02b24bcb65"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">e1fd8f403d0522107f4488addddbe23d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -370,7 +392,6 @@
         <comment/>
         <display_text/>
         <flow display_value="Change Request - Use case: SNAI Generate change request plans with notes - fe1fd8781b67e250e2622f02b24bcb09">b21fd8781b67e250e2622f02b24bcb0b</flow>
-        <generation_source>agentic_ai</generation_source>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>Pratap.S</sys_created_by>
@@ -384,7 +405,6 @@
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
-        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d31fd8781b67e250e2622f02b24bcb5f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -452,7 +472,6 @@
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 08:59:51</sys_updated_on>
         <ui_id>cb1fd878-bb67-e250-4fc4-2cae9fb8af5b</ui_id>
-        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=df1fd8781b67e250e2622f02b24bcba3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -513,11 +532,11 @@
         <sys_created_on>2025-08-21 06:41:07</sys_created_on>
         <sys_id>1f1fd8781b67e250e2622f02b24bcb71</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b21fd8781b67e250e2622f02b24bcb0b_changed_fields_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 06:41:07</sys_updated_on>
         <url/>
@@ -536,11 +555,11 @@
         <sys_created_on>2025-08-21 06:41:07</sys_created_on>
         <sys_id>9b1fd8781b67e250e2622f02b24bcb6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b21fd8781b67e250e2622f02b24bcb0b_current_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 06:41:07</sys_updated_on>
         <url/>
@@ -559,11 +578,11 @@
         <sys_created_on>2025-08-21 06:41:07</sys_created_on>
         <sys_id>df1fd8781b67e250e2622f02b24bcb6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b21fd8781b67e250e2622f02b24bcb0b_table_name_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 06:41:07</sys_updated_on>
         <url/>
@@ -904,11 +923,11 @@
         <sys_created_on>2025-08-21 07:59:57</sys_created_on>
         <sys_id>4e21fcb41b2be250e2622f02b24bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3d21fcb41b2be250e2622f02b24bcb9f_table_name_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 07:59:57</sys_updated_on>
         <url/>
@@ -927,11 +946,11 @@
         <sys_created_on>2025-08-21 07:59:57</sys_created_on>
         <sys_id>b121fcb41b2be250e2622f02b24bcbbb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3d21fcb41b2be250e2622f02b24bcb9f_current_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 07:59:57</sys_updated_on>
         <url/>
@@ -950,11 +969,11 @@
         <sys_created_on>2025-08-21 07:59:57</sys_created_on>
         <sys_id>ce21fcb41b2be250e2622f02b24bcbc1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceNow AI">ba3f8a041ba76e10e2622f02b24bcb4b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3d21fcb41b2be250e2622f02b24bcb9f_changed_fields_en</sys_update_name>
         <sys_updated_by>Pratap.S</sys_updated_by>
         <sys_updated_on>2025-08-21 07:59:57</sys_updated_on>
         <url/>

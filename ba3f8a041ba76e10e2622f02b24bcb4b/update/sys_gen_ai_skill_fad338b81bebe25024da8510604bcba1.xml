@@ -4,7 +4,7 @@
         <skill_description>Given the change request number, come up with a detailed 
 implementation plan, test plan, and backout plan.</skill_description>
         <skill_document>e2d338b81bebe25024da8510604bcb91</skill_document>
-        <skill_name>SNAI Generate change request plans with notes</skill_name>
+        <skill_name>SNAI Generate change request plans with </skill_name>
         <skill_table>sn_aia_skill_metadata</skill_table>
         <sys_class_name>sys_gen_ai_skill</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
@@ -13,7 +13,7 @@ implementation plan, test plan, and backout plan.</skill_description>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fad338b81bebe25024da8510604bcba1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SNAI Generate change request plans with</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow AI" source="x_aenpl_servicenow">ba3f8a041ba76e10e2622f02b24bcb4b</sys_package>
         <sys_policy/>

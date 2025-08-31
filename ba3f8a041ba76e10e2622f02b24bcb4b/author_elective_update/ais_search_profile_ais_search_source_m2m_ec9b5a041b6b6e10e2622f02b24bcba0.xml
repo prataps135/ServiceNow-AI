@@ -44,7 +44,7 @@
         <update_guid_history>ac9b5a04a86b6e1013d7d2ba2fd089a5:-694091563</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ServiceNow AI Now Assist VA Primary.Custom skills">28fb1a441b6b6e10e2622f02b24bcb3c</sys_audit_delete>
+        <sys_audit_delete display_value="">28fb1a441b6b6e10e2622f02b24bcb3c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-19 07:51:05</sys_created_on>

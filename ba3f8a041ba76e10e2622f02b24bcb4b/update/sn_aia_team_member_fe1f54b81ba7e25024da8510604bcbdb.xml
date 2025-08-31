@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
     <sn_aia_team_member action="INSERT_OR_UPDATE">
-        <agent display_value="Change risk and impact analysis AI agent">064ffb4f3b331210a4f54560b5e45a17</agent>
+        <agent display_value="">064ffb4f3b331210a4f54560b5e45a17</agent>
         <sys_class_name>sn_aia_team_member</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 06:41:05</sys_created_on>

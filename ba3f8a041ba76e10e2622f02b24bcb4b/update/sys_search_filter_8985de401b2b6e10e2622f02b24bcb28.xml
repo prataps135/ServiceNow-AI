@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="News Articles">0e1ccf3eff342110277ba36cf43bf111</ais_search_source>
+        <ais_search_source display_value="">0e1ccf3eff342110277ba36cf43bf111</ais_search_source>
         <label>Article Content</label>
         <name>News Articles</name>
         <order>100</order>

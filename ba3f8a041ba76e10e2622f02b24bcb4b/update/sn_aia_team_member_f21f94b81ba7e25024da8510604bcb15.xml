@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
     <sn_aia_team_member action="INSERT_OR_UPDATE">
-        <agent display_value="Change backout plan AI agent">fcf2f9502b875210f2fafffdfe91bf61</agent>
+        <agent display_value="">fcf2f9502b875210f2fafffdfe91bf61</agent>
         <sys_class_name>sn_aia_team_member</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 06:41:05</sys_created_on>

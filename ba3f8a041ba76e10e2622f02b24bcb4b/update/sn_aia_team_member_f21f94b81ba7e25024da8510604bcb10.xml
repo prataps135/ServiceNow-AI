@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
     <sn_aia_team_member action="INSERT_OR_UPDATE">
-        <agent display_value="Change test plan AI agent">eb25fd142b875210f2fafffdfe91bf52</agent>
+        <agent display_value="">eb25fd142b875210f2fafffdfe91bf52</agent>
         <sys_class_name>sn_aia_team_member</sys_class_name>
         <sys_created_by>Pratap.S</sys_created_by>
         <sys_created_on>2025-08-21 06:41:05</sys_created_on>
